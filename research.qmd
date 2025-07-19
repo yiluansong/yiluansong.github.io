@@ -1,9 +1,0 @@
----
-title: "Research"
-format: html
-listing:
-  type: default
-  contents: research
-  sort: "date desc"
-  categories: true
----

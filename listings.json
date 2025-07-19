@@ -1,0 +1,46 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/secret-removal/index.html",
+      "/blog/cicd/index.html",
+      "/blog/nmds/index.html",
+      "/blog/reproducible-workflow/index.html",
+      "/blog/phenology-sample-data/index.html",
+      "/blog/github/index.html",
+      "/blog/blogdown/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/sft/index.html",
+      "/research/rs4flower/index.html",
+      "/research/synchrony/index.html",
+      "/research/spore/index.html",
+      "/research/sdm/index.html",
+      "/research/grassland/index.html",
+      "/research/b4warmed/index.html",
+      "/research/mercury/index.html",
+      "/research/multilevel/index.html",
+      "/research/twitter/index.html",
+      "/research/stvspb/index.html",
+      "/research/efi/index.html",
+      "/research/floralvision/index.html",
+      "/research/newdata/3/index.html",
+      "/research/npn/2/index.html",
+      "/research/mismatch/index.html",
+      "/research/npn/1/index.html",
+      "/research/phenoforecast/index.html",
+      "/research/velocity/index.html",
+      "/research/newdata/2/index.html",
+      "/research/mesocosm/3/index.html",
+      "/research/gpedm/index.html",
+      "/research/montane/index.html",
+      "/research/mesocosm/1/index.html",
+      "/research/newdata/1/index.html",
+      "/research/mesocosm/2/index.html",
+      "/research/macrophyte/index.html"
+    ]
+  }
+]
