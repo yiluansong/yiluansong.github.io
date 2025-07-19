@@ -1,0 +1,58 @@
+---
+title: Species distribution modeling with machine learning
+author: 
+  - Yiluan Song
+  - Kai Zhu
+  - "as a team in a worldwide collaborative study"
+date: 2024-10-16
+description: Manuscript in Preparation
+categories:
+  - Changing biodiversity
+  - First-author
+keywords:
+  - global change biology
+  - environmental data science
+  - biodiversity
+  - climate change
+  - conservation
+about:
+  template: solana
+  links:
+    - text: GitHub
+      icon: github
+      url: "https://github.com/zhulabgroup/demo-sdm"
+    - text: Google Colab
+      icon: google
+      url: "https://colab.research.google.com/drive/1loHlp0_kgbmSSP_4XckYDUmdXDJW3X-A?usp=sharing"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+- **This is a contribution to a worldwide collaborative study about structural uncertainty in species distribution models (SDMs).**  
+- **We predicted the distributions of the species _Prionailurus bengalensis_ and _Zamia Prasina_.**  
+- **We adopted an ensemble approach that averages predictions from four decision tree-based classifiers: Random Forests, Extra Trees, XGBoost, and LightGBM.**
+
+## Data collection
+
+We retrieved species occurrence data from [GBIF](https://doi.org/10.15468/dd.vxc7bu) and environmental predictors from [CHELSA](https://chelsa-climate.org/).
+
+![Locations of _P. bengalensis_ presence retrieved from GBIF data and locations of pseudo-absence generated in random.](1.png)
+
+## Decision tree-based classifiers
+
+Our method was adapted from [Daniel Furman's tutorial](https://daniel-furman.github.io/Python-species-distribution-modeling/) on species distribution modeling with python. We implemented regularization for each classifier.
+
+![Predicted probability of presence of _P. bengalensis_ using Random Forests.](2.png)  
+
+![Predicted probability of presence of _P. bengalensis_ using Extra Trees.](3.png)  
+
+![Predicted probability of presence of _P. bengalensis_ using XGBoost.](4.png)  
+
+![Predicted probability of presence of _P. bengalensis_ using LightGBM.](5.png)  
+
+## The output
+
+![Predicted distribution of _P. bengalensis_ by averaging the probabilities of presence from the four classifiers.](6.png)

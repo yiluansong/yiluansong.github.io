@@ -1,0 +1,44 @@
+---
+title: How good is space-for-time substitution
+subtitle: "Consistency in spatial and temporal flowering time sensitivity to temperature of wind-pollinated trees: insights from field observation and herbarium data"
+author:
+  - Yi Liu
+  - __Yiluan Song__
+  - Kai Zhu
+date: 2025-03-31
+description: Manuscript in Preparation <br> Yi Liu is a 2022 cohort Ph.D. student at the University of Michigan.
+categories:
+  - Ecological forecasting
+  - Changing phenology
+  - Student-led
+keywords:
+  - grassland
+  - global change biology
+  - environmental data science
+  - biodiversity
+  - climate change
+  - global change experiment
+  - community ecology
+  - climatic debt
+  - thermophilization
+about:
+  template: solana
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+- **We developed a method to quantify the differences in the sensitivity of plant phenology to temperature over space and over time, taking the uncertainty of both estimates into consideration.**
+- **We compared spatial and temporal sensitivities in multiple wind-pollinated species to evaluate the use of space-for-time substitution in forecasting their phenology over time.**
+
+---
+
+## Comparing sensitivities with uncertainty
+
+![](1.jpg)
+
+## Generalizing to multiple species
+
+![](2.jpg)

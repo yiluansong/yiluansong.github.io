@@ -1,0 +1,39 @@
+---
+title: Perspectives on New Data I
+subtitle: Forest age improves understanding of the global carbon sink
+author:
+  - Kai Zhu 
+  - __Yiluan Song__  
+  - Clara Qin  
+date: 2019-02-19
+description: "_PNAS_ 2019 (a Commentary)"
+categories:
+  - Data revolution
+  - Changing biodiversity
+keywords:
+  - environmental data science
+  - forest age
+  - carbon
+  - global database
+about:
+  template: solana
+  links:
+    - text: Paper
+      icon: pdf
+      url: "https://doi.org/10.1073/pnas.1900797116"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+-   [**Pugh et al., 2019**](https://www.pnas.org/doi/abs/10.1073/pnas.1810512116) **utilized a new global database of forest age to inform a vegetation model.**
+-   **Regrowth forests constitute a carbon sink that is even greater than that of old-growth forests.**
+-   **This study underscored the importance of forest age data and demographic processes in terrestrial biosphere modeling.**
+-   **They challenged the traditional equilibrium view and revealed that much of the current global forest carbon sink is transient.**
+-   **In light of their estimate of a smaller carbon sink than previously anticipated, even more immediate action on CO~2~ emission reduction may be justified.**
+
+------------------------------------------------------------------------
+
+![History of changing forests in New England.](1-1.jpeg)

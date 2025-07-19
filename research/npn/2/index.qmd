@@ -1,0 +1,47 @@
+---
+title: From citizen science to pollen phenology II
+subtitle: Volunteer-contributed observations of flowering often correlate with airborne pollen concentrations
+author:
+  - Theresa M. Crimmins
+  - Elizabeth Vogt
+  - Claudia L. Brown
+  - Dan Dalan
+  - Arie Manangan
+  - Guy Robinson
+  - __Yiluan Song__
+  - Kai Zhu
+  - Daniel S.W. Katz
+date: 2023-06-17
+description: _International Journal of Biometeorology_ 2023
+categories:
+  - Allergen phenology
+keywords:
+  - global change biology
+  - environmental data science
+  - allergy
+  - public health
+  - citizen science
+about:
+  template: solana
+  links:
+    - text: Paper
+      icon: pdf
+      url: "https://doi.org/10.1007/s00484-023-02506-3"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+- **The USA-NPN’s flower and pollen cone observations could address gaps in pollen monitoring.**
+- **Significant correlations were found between volunteer-contributed observations and airborne pollen concentrations for 15 common tree taxa.**
+- **A formal observation campaign could further enhance the quantity and utility of these data.**
+
+---
+
+![Flower and pollen status records contributed to Nature’s Notebook in continental US and National Allergy Bureau (NAB) certified pollen monitoring stations.](2-1.png)
+
+![Three examples of comparing flowering status observations and airborne pollen concentrations.](2-2.png)
+
+![Correlations between flowering and pollen cone observations collected within 200 km of a pollen counting station and airborne pollen concentrations.](2-3.png)

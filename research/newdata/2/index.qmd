@@ -1,0 +1,52 @@
+---
+title: Perspectives on New Data II
+subtitle: Expanding NEON biodiversity surveys with new instrumentation and machine learning approaches
+author:
+  - Justin Kitzes  
+  - Rachael Blake  
+  - Sara Bombaci  
+  - Melissa Chapman  
+  - Sandra M. Duran  
+  - Tao Huang  
+  - Maxwell B. Joseph  
+  - Samuel Lapp  
+  - Sergio Marconi  
+  - William K. Oestreich  
+  - Tessa A. Rhinehart  
+  - Anna K. Schweiger  
+  - __Yiluan Song__  
+  - Thilina Surasinghe  
+  - Di Yang  
+  - Kelsey Yule  
+date: 2021-11-09
+description: _Ecosphere_ 2021
+categories:
+  - Data revolution
+  - Changing biodiversity
+keywords:
+  - global change biology
+  - environmental data science
+  - observatory network
+  - NEON
+  - machine learning
+  - biodiversity monitoring
+about:
+  template: solana
+  links:
+    - text: Paper
+      icon: pdf
+      url: "https://doi.org/10.1002/ecs2.3795"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+- **We reviewed data collection and research at the intersection of biodiversity, instrumentation, and machine learning at NEON sites.**
+- **We surveyed methods that have been developed at other locations but could potentially be employed at NEON sites.**
+- **We elaborated on five fruitful future paths for automated biodiversity measurement at NEON sites.**
+- **I mainly contributed to discussing the path of expanded remote and ground-based measurements for plant biodiversity.**
+
+---
+
+![Examples of phenology image and land–water interface image from the Smithsonian Conservation Biology Institute and Posey Creek NEON sites, both taken on Nov 1 2019.](2-1.jpg)  

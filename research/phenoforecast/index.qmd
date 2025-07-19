@@ -1,0 +1,73 @@
+---
+title: Forecasting phenology for public health
+subtitle: "PhenoForecast: Ecological forecasting of leafing and flowering phenology during climate change to inform public health"
+author:
+  - __Yiluan Song__
+  - Stephan B. Munch
+  - Kai Zhu
+date: 2021-12-17
+description: AGU 2021 presentation <br> EFI 2022 presentation (<a href = "https://ecoforecast.org/efi-futures-outstanding-student-presentation-award/#2022-results">EFI Futures Outstanding Presentation Award</a>)
+categories:
+  - Ecological forecasting
+  - First-author
+  - Awarded
+keywords:
+  - global change biology
+  - environmental data science
+  - phenology
+  - climate change
+  - forecasting
+  - GPEDM
+  - machine learning
+  - public health
+  - pollen
+  - wind-pollinated species
+about:
+  template: solana
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+-   **We aimed to deliver near-term forecasts of vegetative and reproductive phenology of wind-pollinated plants that induce allergy.**
+-   **We leveraged diverse phenology data including remote sensing, phenophase observations, and airborne pollen concentrations.**
+-   **We used spatiotemporal Gaussian Process Empirical Dynamic Modeling (GPEDM) to forecast maps of phenology in the continental US.**
+-   **We implemented infrastructure to deliver forecasts every day for the following 35 days on our web app, PhenoForecast.**
+
+------------------------------------------------------------------------
+
+::: {style="position: relative; width: 100%; padding-top: 56.25%; height: 0; overflow: hidden;"}
+<iframe src="https://www.youtube.com/embed/ymVsFQb3_Kk?si=ohg9sjBfV_asN2RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+
+</iframe>
+:::
+
+## Background
+
+![Synthesizing phenology data from multiple sources.](1.png)
+
+## Methods
+
+![Infrastructure to collect data, fit models, make predictions, and deliver forecasts.](2.jpg)
+
+![Four levels of the model behind PhenoForecast and key data sources.](3.jpg)
+
+![Steps in each level of the model.](4.jpg)
+
+## Product
+
+![Screenshot of PhenoForecast, showing forecasts of EVI.](5.png)
+
+![Screenshot of PhenoForecast, showing forecasts of leaf phenology.](6.png)
+
+![Screenshot of PhenoForecast, showing forecasts of flower phenology.](7.png)
+
+![Screenshot of PhenoForecast, showing forecasts of flower phenology.](8.png)
+
+## Evaluation
+
+![Correlation between observed and predicted EVI.](9.png)
+
+![Fitted and forecasted EVI at six randomly selected sites. Black lines show observations; blue lines and ribbons show predictions with 95% intervals.](10.jpg)

@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: Yiluan Song
+  favicon: otter.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    header-includes:
+      - |
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const allLinks = document.querySelectorAll('a[href]');
+
+          allLinks.forEach(function (link) {
+            const isInNavbar = link.closest('nav') !== null;
+            const isInToC = link.closest('.toc') !== null || link.closest('#TOC') !== null;
+
+            const isExternal = link.hostname !== window.location.hostname;
+
+            if (!isInNavbar && !isInToC && isExternal) {
+              link.setAttribute('target', '_blank');
+              link.setAttribute('rel', 'noopener noreferrer');
+            }
+          });
+        });
+        </script>
+
+publish:
+  gh-pages:
+    branch: gh-pages
+    message: "Auto-generated deployment from Quarto"
+    repository: yiluansong/yiluansong.github.io

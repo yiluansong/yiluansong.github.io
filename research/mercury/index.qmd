@@ -1,0 +1,58 @@
+---
+title: Effects of upwelling on Hg cycling
+subtitle: Upwelling enhances mercury particle scavenging in the California Current System
+author: 
+  - Xinyun Cui
+  - Hannah M. Adams
+  - Michael R. Stukel
+  - __Yiluan Song__
+  - Amina T. Schartup
+  - Carl H. Lamborg
+date: 2024-08-22
+description: _Environmental Science & Technology_ 2024
+categories:
+  - Aquatic systems
+keywords:
+  - global change biology
+  - environmental data science
+  - Hg cycling
+  - biogeochemistry
+  - California Current
+about:
+  template: solana
+  links:
+    - text: Paper
+      icon: pdf
+      url: "https://doi.org/10.1021/acs.est.4c04308"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+-   **Coastal upwelling has the potential to increase toxic trace metal mercury (Hg) to the mixed layer of the ocean.**
+-   **Total particulate Hg and sinking flux were observed to be higher in the upwelling region compared to open ocean.**
+-   **Model simulations showed that upwelling enhances sinking fluxes of Hg.**
+
+------------------------------------------------------------------------
+
+## Abstract
+
+Coastal upwelling supplies nutrients supporting primary production while also adding the toxic trace metal mercury (Hg) to the mixed layer of the ocean. This could be a concern for human and environmental health if it results in the enhanced bioaccumulation of monomethylmercury (MMHg). Here, we explore how upwelling influences Hg cycling in the California Current System (CCS) biome through particle scavenging and sea-air exchange. We collected suspended and sinking particle samples from a coastal upwelled water parcel and an offshore non-upwelled water parcel and observed higher total particulate Hg and sinking flux in the upwelling region compared to open ocean. To further investigate the full dynamics of Hg cycling, we modeled Hg inventories and fluxes in the upper ocean under upwelling and non-upwelling scenarios. The model simulations confirmed and quantified that upwelling enhances sinking fluxes of Hg by 41% through elevated primary production. Such an enhanced sinking flux of Hg is biogeochemically important to understand in upwelling regions, as it increases the delivery of Hg to the deep ocean where net conversion to MMHg may take place.
+
+------------------------------------------------------------------------
+
+## CCE-LTER Cruise
+
+![Map of particle sampling stations from the 2021 CCE-LTER Cruise.](1.jpeg)
+
+## Simulating Hg cycling with upwelling
+
+![Monte Carlo simulation plots for Hg cycling variables.](2.png)
+
+![Sensitivity analysis of key model parameters.](3.jpeg)
+
+## Upwelling changing coastal Hg budgets
+
+![Simulated Hg budgets in the coastal CCE domain under two scenarios with and without upwelling.](4.jpeg)

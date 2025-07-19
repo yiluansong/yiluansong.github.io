@@ -1,0 +1,63 @@
+---
+title: Public perceptions of pollen seasons under climate change
+subtitle: Biological changes, political ideology, and scientific communication shape human perceptions of pollen seasons
+author:
+  - __Yiluan Song__
+  - Adam Millard-Ball
+  - Nathan Fox
+  - Derek Van Berkel
+  - Arun Agrawal
+  - Kai Zhu
+date: 2024-08-02
+description: Manuscript under review <br> Master's student Chuangbo Tong, undergraduate student Luke Hamilton, and undergraduate student Cait Schilt at the University of California, Santa Cruz contributed to the exploratory data analysis of this project.
+categories:
+  - Allergen phenology
+  - First-author
+keywords:
+  - global change biology
+  - environmental data science
+  - allergy
+  - climate change
+  - phenology
+  - public health
+  - social media
+about:
+  template: solana
+  links:
+    - text: Preprint
+      icon: file
+      url: "https://doi.org/10.1101/2024.07.30.605525"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/zhulabgroup/phenology-twitter"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+-   **Pollen-related Twitter posts correspond to pollen seasons over time and space.**
+-   **Twitter users' attribution of changes in pollen seasons depend on their ideology.**
+-   **More liberal users are more likely to agree with climate impacts on pollen seasons.**
+-   **Media and experts play key roles in communicating climate impacts on pollen seasons.**
+
+---
+
+## Abstract
+
+Climate change is generally changing the timing and intensity of pollen seasons, thereby often increasing human exposure to allergenic pollen. Climate-driven changes in pollen seasons present a unique opportunity to craft messaging aimed at communicating climate change impacts on public health through changes in the biological systems. However, it is unclear how pollen seasons are experienced and understood by the public, including how well we detect pollen seasons or what factors we view as responsible for changes in pollen seasons. Here, we use social media data in the United States from 2012 to 2022 to assess public perceptions of pollen seasons at large spatiotemporal scales. We show that pollen seasons detected by social media (Twitter) users align well with natural pollen seasons. Attribution of changing pollen seasons, however, varies based on political ideology: liberal users, compared to conservative users, are more likely to attribute changing pollen seasons to climate change. Mass media and scientific experts play a key role in communicating how climate change drives changing pollen seasons. Our findings reveal how changes in biological systems, political ideology, and scientific communications collectively shape public perceptions of pollen seasons under climate change. Our findings constitute a step towards more effective climate change impact communication and public health intervention design.
+
+---
+
+## Twitter users accurately detect pollen phenology
+
+![Twitter pollen phenology aligns with natural pollen phenology over time and space. **(a)** Twitter pollen phenology aligns with natural pollen phenology over time and space. **(b)** Both Twitter and natural pollen phenology exhibit latitudinal gradients. **(c)** Spatial variation of pollen phenology across states in the US.](1.png)
+
+## Attribution to climate change depends on political ideology
+
+![Twitter users’ attribution of pollen phenology was likely ideologically structured. **(a)** Venn diagram showing the relationship between three groups of continental US Twitter users defined for this study. **(b)** Density and kernel density estimates of ideology score in three groups of users. **(c & d)** Correlation between the conditional probability of a user attributing changes in pollen phenology to a specific driver (temperature change or climate change) given general interest in pollen phenology and the bin of ideology the user was in.](2.png)
+
+## Scientific communication dominates discussions on climate change impacts
+
+![Role of scientific communication on Twitter users’ discussions on pollen phenology. The series of Sankey diagrams show the flow of messages from the source (users being retweeted) to the destination (users posting retweets) in our compiled dataset.](3.png)

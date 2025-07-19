@@ -1,0 +1,53 @@
+---
+title: Macrophytes shift phytoplankton community in mesocosms III
+subtitle: "Tropical macrophytes promote phytoplankton community shifts in lake mesocosms: relevance for lake restoration in warm climates"
+author:
+  - Darren Z.H. Sim
+  - Maxine A.D. Mowe
+  - __Yiluan Song__
+  - Joy Lu
+  - Hugh T.W. Tan
+  - Simon M. Mitrovic
+  - Daniel L. Roelke
+  - Darren C.J. Yeo
+date: 2021-08-31
+description: _Hydrobiologia_ 2021
+categories:
+  - Aquatic systems
+  - Changing biodiversity
+keywords:
+  - global change biology
+  - environmental data science
+  - aquatic plants
+  - mesocosm
+  - water quality
+  - cyanobacteria
+  - phytoplankton
+  - community composition
+  - restoration
+about:
+  template: solana
+  links:
+    - text: Paper
+      icon: pdf
+      url: "https://doi.org/10.1007/s10750-021-04679-7"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+- **Macrophytes reduce phytoplankton biomass and increase water clarity in turbid tropical lakes in a density-dependent manner.**
+- **High-density macrophyte treatments shift phytoplankton communities from turbid water-adapted filamentous cyanobacteria to clear water-adapted green algae and cryptophytes.**
+- **Emergent and submerged macrophytes reduced phytoplankton biomass and distinctly altered taxonomic and functional composition.**
+
+---
+
+![Design of the *in-situ* mesocosm experiment.](3-1.png)
+
+![Changes in water parameters in mesocosms during the macrophyte density experiment.](3-2.png)
+
+![Relative biovolume composition of phytoplankton in the control and macrophyte treatments.](3-3.png)
+
+![Non-metric dimensional scaling (NMDS) ordination showing shift in phytoplankton community composition in the growth-form experiment.](3-4.png)
