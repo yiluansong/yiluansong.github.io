@@ -18,6 +18,7 @@ about:
       icon: file-person
       url: "https://docs.google.com/document/d/1Hxwe0iR8H5X0eXnYDAnElDwA4bijcMan3mNqRyE2c-o/edit?usp=drive_link"
 comments: false
+include-after-body: _includes/statcounter.html
 ---
 
 ::: {.column-page}
