@@ -1,8 +1,6 @@
 ---
 title: "Song Lab is recruiting!"
 subtitle: "The Song Lab in the Department of Biological Sciences at the University of Pittsburgh is now recruiting a postdoctoral researcher, a research technician, and a PhD student"
-about:
-  template: marquee
 comments: false
 ---
 
