@@ -12,6 +12,8 @@ website:
         text: Research
       - href: blog.qmd
         text: Blog
+      - href: opportunities.qmd
+        text: Opportunities
 
 format:
   html:

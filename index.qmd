@@ -13,7 +13,7 @@ about:
       url: "https://github.com/yiluansong"
     - text: Email
       icon: envelope
-      url: "mailto:songyl@edu"
+      url: "mailto:songyl@umich.edu"
     - text: CV
       icon: file-person
       url: "https://docs.google.com/document/d/1Hxwe0iR8H5X0eXnYDAnElDwA4bijcMan3mNqRyE2c-o/edit?usp=drive_link"
@@ -40,4 +40,7 @@ Over the years, I have committed to advancing our understanding of how climate c
 - Ecological forecasting
 - Allergen phenology
 
+## I am recruiting
+
+Starting from Jan 1, 2026, I will be an Assistant Professor at the University of Pittsburgh. I am now recruiting a postdoctoral researcher, a research technician, and a PhD student to start in 2026. Please read more [here](https://yiluansong.github.io/opportunities.html).
 :::
