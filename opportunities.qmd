@@ -7,9 +7,9 @@ comments: false
 ::: column-page
 ## Lab Overview
 
-The Song Lab is a new research group in the Department of Biological Sciences at the University of Pittsburgh, focused on understanding how global change alters phenology and biodiversity, and how these ecological changes interact with human activities.
+The Song Lab is a new research group in the Department of Biological Sciences at the **University of Pittsburgh**, focused on understanding how global change alters phenology and biodiversity, and how these ecological changes interact with human activities.
 
-Our research operates at the intersection of environmental data science and global change biology. We integrate large-scale observational and experimental datasets and cutting-edge analytical tools—from hierarchical Bayesian modeling to artificial intelligence. We aim to provide both theoretical insights and practical solutions to the challenges posed by our rapidly changing world.
+Our research operates at the intersection of **environmental data science** and **global change biology**. We integrate large-scale observational and experimental datasets and cutting-edge analytical tools—from hierarchical Bayesian modeling to artificial intelligence. We aim to provide both theoretical insights and practical solutions to the challenges posed by our rapidly changing world.
 
 
 ## Position 1: Postdoctoral Researcher
@@ -18,7 +18,7 @@ We are seeking a postdoctoral researcher to lead a project on the seasonal dynam
 
 Preferred domain knowledge:
 
-- Strong background in ecology or a related field, with interest or experience in phenology, community dynamics, and/or species interactions.
+- Strong background in ecology or a related field, with interest or experience in phenology, community dynamics, and/or species interactions
 - Experience investigating ecological patterns over time
 - In-depth knowledge of at least one study system (e.g., grassland, bird, insect, microbial) and broad familiarity with several others would be beneficial
 
