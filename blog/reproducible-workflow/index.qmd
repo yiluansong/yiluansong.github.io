@@ -127,7 +127,7 @@ We make a lot of changes in our project along the way and we can easily lose tra
     |-- LICENSE
 ```
    
-    * A "release" branch to provide a concise reproducible version for the public after publication. Code should be a subset of the ones in the "manuscript" branch, put into package. Small data files should be included in the package. There should not be dependency on external data folders. An example of the structure should look like this.
+   * A "release" branch to provide a concise reproducible version for the public after publication. Code should be a subset of the ones in the "manuscript" branch, put into package. Small data files should be included in the package. There should not be dependency on external data folders. An example of the structure should look like this.
 
 ```bash
     your_package/
