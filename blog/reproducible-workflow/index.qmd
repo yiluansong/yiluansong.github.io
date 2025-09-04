@@ -10,6 +10,7 @@ format:
   html:
     toc: true
     code-overflow: wrap
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
@@ -26,6 +27,7 @@ As we gradually adopt the practices below, we can make our work reproducible for
 
 ## Working environment
 There are many restrictions working only on personal computers. Others, as well as ourselves in a different setting, might not be able to reproduce our work. It is important to be able to set up a working environment that can be accessed easily from most places. I recommend using cloud computing and cloud storage.
+
 * Cloud computing
   * At UofM, there is [Great Lakes HPC Cluster](https://arc.umich.edu/greatlakes/). Check my [documentation](https://docs.google.com/document/d/1woDxYgpYkxx88mcvJrYGtDL4RfYSCQkCbCjIp7EN7_Y/edit?usp=sharing) prepared for Zhu Lab for usage. There are limits on rates and quota.
   * [AWS EC2 instances](https://aws.amazon.com/ec2/) are fairly popular and easy to use. Recommend. You have full control over your instance. Not free, but we can apply for research credit.
@@ -77,8 +79,7 @@ bucketlist <- get_bucket(bucket = "your_bucket_name_here")
 data <- s3read_using(
   FUN = read.csv,
   object = "your_file_name_here",
-  bucket = "your_bucket_name_here"
-  )
+  bucket = "your_bucket_name_here")
 
 # View dataframe
 View(data)
@@ -96,7 +97,8 @@ View(data)
 
 ## Documentation and version control
 We make a lot of changes in our project along the way and we can easily lose track. We want to keep the deprecated work but we don't want to make our working directory too cluttered. We want to be able to retrieve previous work and understand what we were doing.
-* Documentation
+
+* Documentation 
   * Always write comments for your code.
   * Write metadata. For example, use the [EML](https://eml.ecoinformatics.org/) template for ecological data.
   * Name your functions and objects informatively. Here is what I do.
@@ -151,6 +153,7 @@ We make a lot of changes in our project along the way and we can easily lose tra
   
 ## Sharing work
 This is a key part of computational reproducibility.
+
 * Sharing code
   * Again, GitHub (or Bitbucket).
 * Sharing code and data
@@ -224,6 +227,7 @@ browseVignettes("myPackage")
 
 ## Reporting results
 There is still some gap between the results from running our code and what we present in the manuscript.
+
 * R markdown
   * One-page reports
   * You can render (knit) R markdown documents easily using RStudio. Uses package [_knitr_](https://yihui.org/knitr/).
