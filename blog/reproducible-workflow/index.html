@@ -216,7 +216,22 @@ document.addEventListener('DOMContentLoaded', function () {
 <p>As we gradually adopt the practices below, we can make our work reproducible for ourselves, our research team, colleagues, others in the research field, and even the general public.</p>
 <section id="working-environment" class="level2">
 <h2 data-anchor-id="working-environment">Working environment</h2>
-<p>There are many restrictions working only on personal computers. Others, as well as ourselves in a different setting, might not be able to reproduce our work. It is important to be able to set up a working environment that can be accessed easily from most places. I recommend using cloud computing and cloud storage. * Cloud computing * At UofM, there is <a href="https://arc.umich.edu/greatlakes/">Great Lakes HPC Cluster</a>. Check my <a href="https://docs.google.com/document/d/1woDxYgpYkxx88mcvJrYGtDL4RfYSCQkCbCjIp7EN7_Y/edit?usp=sharing">documentation</a> prepared for Zhu Lab for usage. There are limits on rates and quota. * <a href="https://aws.amazon.com/ec2/">AWS EC2 instances</a> are fairly popular and easy to use. Recommend. You have full control over your instance. Not free, but we can apply for research credit. * <a href="https://aws.amazon.com/ec2/">Microsoft Azure VMs</a> are similar to EC2. * <a href="https://azure.microsoft.com/en-us/products/virtual-machines">Google Colab</a> is a hosted Jupyter Notebook service. Free. Good for machine learning tasks. * <a href="https://cyverse.org/">Cyverse</a> funded by NSF is an Open Science Workspace. They host lots of workshops. * Cloud storage * At UofM, there is <a href="https://arc.umich.edu/turbo/">Turbo</a>. Check my <a href="https://docs.google.com/document/d/1woDxYgpYkxx88mcvJrYGtDL4RfYSCQkCbCjIp7EN7_Y/edit?usp=sharing">documentation</a> prepared for Zhu Lab for usage. There are limits on rates and quota. * Google Drive provides large storage for many university accounts and it can be mounted easily as a local drive. It can be accessed easily from R after authentication. Not standard practice for sensitive data.</p>
+<p>There are many restrictions working only on personal computers. Others, as well as ourselves in a different setting, might not be able to reproduce our work. It is important to be able to set up a working environment that can be accessed easily from most places. I recommend using cloud computing and cloud storage.</p>
+<ul>
+<li>Cloud computing
+<ul>
+<li>At UofM, there is <a href="https://arc.umich.edu/greatlakes/">Great Lakes HPC Cluster</a>. Check my <a href="https://docs.google.com/document/d/1woDxYgpYkxx88mcvJrYGtDL4RfYSCQkCbCjIp7EN7_Y/edit?usp=sharing">documentation</a> prepared for Zhu Lab for usage. There are limits on rates and quota.</li>
+<li><a href="https://aws.amazon.com/ec2/">AWS EC2 instances</a> are fairly popular and easy to use. Recommend. You have full control over your instance. Not free, but we can apply for research credit.</li>
+<li><a href="https://aws.amazon.com/ec2/">Microsoft Azure VMs</a> are similar to EC2.</li>
+<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Google Colab</a> is a hosted Jupyter Notebook service. Free. Good for machine learning tasks.</li>
+<li><a href="https://cyverse.org/">Cyverse</a> funded by NSF is an Open Science Workspace. They host lots of workshops.</li>
+</ul></li>
+<li>Cloud storage
+<ul>
+<li>At UofM, there is <a href="https://arc.umich.edu/turbo/">Turbo</a>. Check my <a href="https://docs.google.com/document/d/1woDxYgpYkxx88mcvJrYGtDL4RfYSCQkCbCjIp7EN7_Y/edit?usp=sharing">documentation</a> prepared for Zhu Lab for usage. There are limits on rates and quota.</li>
+<li>Google Drive provides large storage for many university accounts and it can be mounted easily as a local drive. It can be accessed easily from R after authentication. Not standard practice for sensitive data.</li>
+</ul></li>
+</ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install the googledrive package.</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(googledrive)) {</span>
@@ -261,11 +276,10 @@ document.addEventListener('DOMContentLoaded', function () {
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">s3read_using</span>(</span>
 <span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">FUN =</span> read.csv,</span>
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="at">object =</span> <span class="st">"your_file_name_here"</span>,</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">bucket =</span> <span class="st">"your_bucket_name_here"</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="co"># View dataframe</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">bucket =</span> <span class="st">"your_bucket_name_here"</span>)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="co"># View dataframe</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li><p><a href="https://azure.microsoft.com/en-us/products/storage/blobs">Microsoft Azure Blob storage</a> is similar.</p></li>
@@ -282,7 +296,29 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 <section id="documentation-and-version-control" class="level2">
 <h2 data-anchor-id="documentation-and-version-control">Documentation and version control</h2>
-<p>We make a lot of changes in our project along the way and we can easily lose track. We want to keep the deprecated work but we don’t want to make our working directory too cluttered. We want to be able to retrieve previous work and understand what we were doing. * Documentation * Always write comments for your code. * Write metadata. For example, use the <a href="https://eml.ecoinformatics.org/">EML</a> template for ecological data. * Name your functions and objects informatively. Here is what I do. * Key functions are named in the fashion of action_object_suffix. Types of actions can be: down, tidy, read, calc, plot, test, summ. Objects are the object of the action, such as “climate,” or “plant”. Suffix represent the level of subsetting or a variation, such as “individual.” There can be multiple suffix. * Key R objects are named in the fashion of prefix_class_object_suffix. Types of classes can be: dat, v, ras, df, gg. Prefix “ls” means list. Object and suffix similar to above. * Write project meeting notes, perhaps in Google docs. They now have a shortcut to generate headings for meeting notes. Type @meeting notes and choose the meeting you are taking notes for. * Version control * GitHub is strongly recommended. See my <a href="https://yiluansong.github.io/teaching/2023/09/10/github/">previous blog</a> for a quick start. * Use different branches for different stages of the project. Here is what we recommend. * An “analysis” branch for preliminary analysis. This branch may be messy. * A “manuscript” branch to reproduce all analyses used in the manuscript during the submission stage. Code should be tidy, preferably made into package form in this branch. Data folder might be bulky, so it might be an external folder mounted with a symbolic link. An example of the structure looks like this.</p>
+<p>We make a lot of changes in our project along the way and we can easily lose track. We want to keep the deprecated work but we don’t want to make our working directory too cluttered. We want to be able to retrieve previous work and understand what we were doing.</p>
+<ul>
+<li>Documentation
+<ul>
+<li>Always write comments for your code.</li>
+<li>Write metadata. For example, use the <a href="https://eml.ecoinformatics.org/">EML</a> template for ecological data.</li>
+<li>Name your functions and objects informatively. Here is what I do.
+<ul>
+<li>Key functions are named in the fashion of action_object_suffix. Types of actions can be: down, tidy, read, calc, plot, test, summ. Objects are the object of the action, such as “climate,” or “plant”. Suffix represent the level of subsetting or a variation, such as “individual.” There can be multiple suffix.</li>
+<li>Key R objects are named in the fashion of prefix_class_object_suffix. Types of classes can be: dat, v, ras, df, gg. Prefix “ls” means list. Object and suffix similar to above.</li>
+</ul></li>
+<li>Write project meeting notes, perhaps in Google docs. They now have a shortcut to generate headings for meeting notes. Type @meeting notes and choose the meeting you are taking notes for.</li>
+</ul></li>
+<li>Version control
+<ul>
+<li>GitHub is strongly recommended. See my <a href="https://yiluansong.github.io/teaching/2023/09/10/github/">previous blog</a> for a quick start.</li>
+<li>Use different branches for different stages of the project. Here is what we recommend.
+<ul>
+<li>An “analysis” branch for preliminary analysis. This branch may be messy.</li>
+<li>A “manuscript” branch to reproduce all analyses used in the manuscript during the submission stage. Code should be tidy, preferably made into package form in this branch. Data folder might be bulky, so it might be an external folder mounted with a symbolic link. An example of the structure looks like this.</li>
+</ul></li>
+</ul></li>
+</ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">your_package/</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">|</span><span class="ex">--</span> DESCRIPTION</span>
@@ -326,7 +362,22 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 <section id="sharing-work" class="level2">
 <h2 data-anchor-id="sharing-work">Sharing work</h2>
-<p>This is a key part of computational reproducibility. * Sharing code * Again, GitHub (or Bitbucket). * Sharing code and data * For publications, there are many repositories that allow uploading of bundles of code and data for peer-review and publication. They also give you a permanent DOI for your code and data. Popular ones are <a href="https://zenodo.org/">Zenodo</a>, <a href="https://figshare.com/">Figshare</a>, and <a href="https://datadryad.org/stash">Dryad</a>. Zenodo and Figshare have easy interactions with GitHub. * Sharing working environment, code, and data * This is sometimes important if your project uses some software or packages that are not commonly available, or requires specific versions of them. As you know, package installation can be very frustrating and can discourage others from reproducing your work. * Provide session info in readme.</p>
+<p>This is a key part of computational reproducibility.</p>
+<ul>
+<li>Sharing code
+<ul>
+<li>Again, GitHub (or Bitbucket).</li>
+</ul></li>
+<li>Sharing code and data
+<ul>
+<li>For publications, there are many repositories that allow uploading of bundles of code and data for peer-review and publication. They also give you a permanent DOI for your code and data. Popular ones are <a href="https://zenodo.org/">Zenodo</a>, <a href="https://figshare.com/">Figshare</a>, and <a href="https://datadryad.org/stash">Dryad</a>. Zenodo and Figshare have easy interactions with GitHub.</li>
+</ul></li>
+<li>Sharing working environment, code, and data
+<ul>
+<li>This is sometimes important if your project uses some software or packages that are not commonly available, or requires specific versions of them. As you know, package installation can be very frustrating and can discourage others from reproducing your work.</li>
+<li>Provide session info in readme.</li>
+</ul></li>
+</ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -407,7 +458,29 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 <section id="reporting-results" class="level2">
 <h2 data-anchor-id="reporting-results">Reporting results</h2>
-<p>There is still some gap between the results from running our code and what we present in the manuscript. * R markdown * One-page reports * You can render (knit) R markdown documents easily using RStudio. Uses package <a href="https://yihui.org/knitr/"><em>knitr</em></a>. * <a href="https://rmarkdown.rstudio.com/">Introduction</a> * Publish R markdown to <a href="https://docs.posit.co/how-to-guides/rsc/publish-rmd/">RStudio Connect</a> * Bookdown * Several structured pages, written in R markdown * <a href="https://bookdown.org/">Introduction</a> * You can publish it to <a href="https://bookdown.org/">bookdown.org</a>. * Blogdown * A series of blogs, also written in R markdown * This current webpage is published through blogdown. Check my <a href="https://yiluansong.github.io/teaching/2023/09/09/blogdown/">previous blog</a> for a quick start. * <a href="https://bookdown.org/yihui/blogdown/">Introduction</a> * You can publish it as a GitHub page or on Netlify.</p>
+<p>There is still some gap between the results from running our code and what we present in the manuscript.</p>
+<ul>
+<li>R markdown
+<ul>
+<li>One-page reports</li>
+<li>You can render (knit) R markdown documents easily using RStudio. Uses package <a href="https://yihui.org/knitr/"><em>knitr</em></a>.</li>
+<li><a href="https://rmarkdown.rstudio.com/">Introduction</a></li>
+<li>Publish R markdown to <a href="https://docs.posit.co/how-to-guides/rsc/publish-rmd/">RStudio Connect</a></li>
+</ul></li>
+<li>Bookdown
+<ul>
+<li>Several structured pages, written in R markdown</li>
+<li><a href="https://bookdown.org/">Introduction</a></li>
+<li>You can publish it to <a href="https://bookdown.org/">bookdown.org</a>.</li>
+</ul></li>
+<li>Blogdown
+<ul>
+<li>A series of blogs, also written in R markdown</li>
+<li>This current webpage is published through blogdown. Check my <a href="https://yiluansong.github.io/teaching/2023/09/09/blogdown/">previous blog</a> for a quick start.</li>
+<li><a href="https://bookdown.org/yihui/blogdown/">Introduction</a></li>
+<li>You can publish it as a GitHub page or on Netlify.</li>
+</ul></li>
+</ul>
 
 
 </section>
