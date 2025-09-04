@@ -2,3 +2,10 @@ pre code {
   white-space: pre-wrap;
   word-break: break-word;
 }
+
+/* Wrap all R code and output */
+pre.r, pre.r-code, pre.r-output {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-x: hidden !important;
+}
