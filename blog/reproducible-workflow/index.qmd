@@ -13,10 +13,6 @@ format:
     css: styles.css
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = F, results = "hide")
-```
-
 > A research project is computationally reproducible if a second investigator (including you in the future) can recreate the final reported results of the project, including key quantitative findings, tables, and figures, given only a set of files and written instructions.
 
 Kitzes, J., Turek, D., & Deniz, F. (Eds.). (2018). _The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences._ Oakland, CA: University of California Press. [Link to book](http://www.practicereproducibleresearch.org/)
