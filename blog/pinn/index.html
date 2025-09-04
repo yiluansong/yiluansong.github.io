@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Yiluan Song">
+<meta name="dcterms.date" content="2025-07-27">
 
-<title>Blog – Yiluan Song</title>
+<title>Physics-informed neural networks (PINNs) – Yiluan Song</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./otter.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bba377fd3b4429a0b04f9c67bcb50db9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../otter.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c95497ca232977fe0549a94078a72ad4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script>
 document.addEventListener('DOMContentLoaded', function () {
   const allLinks = document.querySelectorAll('a[href]');
 
@@ -116,35 +86,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -156,7 +97,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Yiluan Song</span>
     </a>
   </div>
@@ -167,19 +108,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./opportunities.html"> 
+    <a class="nav-link" href="../../opportunities.html"> 
 <span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
@@ -194,311 +135,73 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbG9neQ==">Ecology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VudGF0aW9u">Presentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V29ya2Zsb3c=">Workflow <span class="quarto-category-count">(5)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#notebooks" id="toc-notebooks" class="nav-link" data-scroll-target="#notebooks">Notebooks</a></li>
+  <li><a href="#recordings" id="toc-recordings" class="nav-link" data-scroll-target="#recordings">Recordings</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<h1 class="title">Physics-informed neural networks (PINNs)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI</div>
   </div>
-  
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yiluan Song </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 27, 2025</p>
+    </div>
+  </div>
+  </div>
+</header> 
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<p>I prepared a series of teaching materials on <strong>physics-informed neural networks (PINNs)</strong> for <a href="https://midas.umich.edu/events/ai-for-scientists-and-engineers-summer-academy-2025/">U-M MIDAS AI for Scientists and Engineers Summer Academy 2025</a> and pre-workshop materials for <a href="https://midas.umich.edu/events/kgml-workshop-leading-the-new-paradigm-of-ai-for-science/">U-M MIDAS-KGML workshop</a>.</p>
+<section id="slides" class="level2">
+<h2 data-anchor-id="slides"><a href="https://github.com/MIDAS-KGML/pre-workshop/blob/main/slides.pdf">Slides</a></h2>
+<p>A high-level overview of PINN concepts and motivation. Start here to understand the big picture and foundational ideas before diving into the code.</p>
+<p>Part of the slides were developed based on slides by Dr.&nbsp;Alexander Rodríguez.</p>
+</section>
+<section id="notebooks" class="level2">
+<h2 data-anchor-id="notebooks"><a href="https://github.com/MIDAS-KGML/pre-workshop/tree/main/notebook">Notebooks</a></h2>
+<p>Explore hands-on PINN tutorials: - <strong>Notebook 1:</strong> Harmonic oscillator (a simple example) - <strong>Notebook 2:</strong> Cyclic voltammetry (a forward problem) - <strong>Notebook 3:</strong> Fluid dynamics (an inverse problem)</p>
+<p>Each notebook is self-contained and designed to run in Google Colab or Jupyter.</p>
+<p>The tutorials were adapted from tutorials by Dr.&nbsp;Ben Moseley, Dr.&nbsp;Haotian Chen, and Dr.&nbsp;Seungchul Lee.</p>
+</section>
+<section id="recordings" class="level2">
+<h2 data-anchor-id="recordings">Recordings</h2>
+Part 1
+<div style="position: relative; width: 100%; padding-top: 56.25%; height: 0; overflow: hidden;">
+<p><iframe src="https://www.youtube.com/embed/dV7YE5nuFfg?si=CwsCV_B0F9W37la_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></p>
+</div>
+<p>Part 2</p>
+<div style="position: relative; width: 100%; padding-top: 56.25%; height: 0; overflow: hidden;">
+<p><iframe src="https://www.youtube.com/embed/CueaR9kkafA?si=FbdgLwTw3SCwWHIp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></p>
+</div>
 
 
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUk=" data-listing-date-sort="1753588800000" data-listing-file-modified-sort="1756949479792" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
-<div class="thumbnail">
-<p><a href="./blog/pinn/index.html" class="no-external"></a></p><a href="./blog/pinn/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/pinn/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/pinn/index.html" class="no-external">Physics-informed neural networks (PINNs)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/pinn/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
-AI
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/pinn/index.html" class="no-external">I prepared a series of teaching materials on <strong>physics-informed neural networks (PINNs)</strong> for U-M MIDAS AI for Scientists and Engineers Summer Academy 2025 and pre-workshop…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/pinn/index.html" class="no-external">
-<div class="listing-date">
-Jul 27, 2025
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="V29ya2Zsb3c=" data-listing-date-sort="1743393600000" data-listing-file-modified-sort="1756946334814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="687">
-<div class="thumbnail">
-<p><a href="./blog/secret-removal/index.html" class="no-external"></a></p><a href="./blog/secret-removal/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/secret-removal/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/secret-removal/index.html" class="no-external">Secret removal from GitHub repository</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/secret-removal/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2Zsb3c='); return false;">
-Workflow
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/secret-removal/index.html" class="no-external">Recently, I received a notification that my GitHub repository contains a secret.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/secret-removal/index.html" class="no-external">
-<div class="listing-date">
-Mar 31, 2025
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="V29ya2Zsb3c=" data-listing-date-sort="1738040400000" data-listing-file-modified-sort="1747430868000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3225">
-<div class="thumbnail">
-<p><a href="./blog/cicd/index.html" class="no-external"></a></p><a href="./blog/cicd/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/cicd/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/cicd/index.html" class="no-external">CI/CD</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/cicd/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2Zsb3c='); return false;">
-Workflow
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/cicd/index.html" class="no-external">In this tutorial, we’ll walk through the steps of setting up a continuous integration (CI) pipeline using GitHub Actions. We will also demonstrate how to achieve continuous…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/cicd/index.html" class="no-external">
-<div class="listing-date">
-Jan 28, 2025
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="U3RhdGlzdGljcw==" data-listing-date-sort="1696392000000" data-listing-file-modified-sort="1747430868000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1744">
-<div class="thumbnail">
-<p><a href="./blog/nmds/index.html" class="no-external"></a></p><a href="./blog/nmds/index.html" class="no-external">
-<p class="card-img-top"><img src="blog/nmds/index_files/figure-html/unnamed-chunk-1-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/nmds/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/nmds/index.html" class="no-external">Non-metric Multidimensional Scaling (NMDS)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/nmds/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">
-Statistics
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/nmds/index.html" class="no-external">Guest lecture for Dr.&nbsp;Drew Gronewold’s class EAS 501.077 Multivariate Statistics for Environmental Science in 2023 Fall.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/nmds/index.html" class="no-external">
-<div class="listing-date">
-Oct 4, 2023
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="V29ya2Zsb3c=" data-listing-date-sort="1694577600000" data-listing-file-modified-sort="1756949603811" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1658">
-<div class="thumbnail">
-<p><a href="./blog/reproducible-workflow/index.html" class="no-external"></a></p><a href="./blog/reproducible-workflow/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/reproducible-workflow/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/reproducible-workflow/index.html" class="no-external">Reproducible workflow</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/reproducible-workflow/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2Zsb3c='); return false;">
-Workflow
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/reproducible-workflow/index.html" class="no-external">A research project is computationally reproducible if a second investigator (including you in the future) can recreate the final reported results of the project, including…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/reproducible-workflow/index.html" class="no-external">
-<div class="listing-date">
-Sep 13, 2023
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="RWNvbG9neSUyQ1N0YXRpc3RpY3M=" data-listing-date-sort="1694318400000" data-listing-file-modified-sort="1747430868000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="574">
-<div class="thumbnail">
-<p><a href="./blog/phenology-sample-data/index.html" class="no-external"></a></p><a href="./blog/phenology-sample-data/index.html" class="no-external">
-<p class="card-img-top"><img src="blog/phenology-sample-data/index_files/figure-html/unnamed-chunk-3-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/phenology-sample-data/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/phenology-sample-data/index.html" class="no-external">Phenology sample data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/phenology-sample-data/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbG9neQ=='); return false;">
-Ecology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">
-Statistics
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/phenology-sample-data/index.html" class="no-external">Data prepared for Dr.&nbsp;Yang Chen’s class STATS605 in 2023 Fall, also good for others interested in exploring phenology data.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/phenology-sample-data/index.html" class="no-external">
-<div class="listing-date">
-Sep 10, 2023
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="V29ya2Zsb3c=" data-listing-date-sort="1694318400000" data-listing-file-modified-sort="1747430868000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1038">
-<div class="thumbnail">
-<p><a href="./blog/github/index.html" class="no-external"></a></p><a href="./blog/github/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/github/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/github/index.html" class="no-external">GitHub</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/github/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2Zsb3c='); return false;">
-Workflow
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/github/index.html" class="no-external">This is a practical introduction to using Git and GitHub.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/github/index.html" class="no-external">
-<div class="listing-date">
-Sep 10, 2023
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="UHJlc2VudGF0aW9uJTJDV29ya2Zsb3c=" data-listing-date-sort="1694232000000" data-listing-file-modified-sort="1747430868000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
-<div class="thumbnail">
-<p><a href="./blog/blogdown/index.html" class="no-external"></a></p><a href="./blog/blogdown/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/blogdown/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/blogdown/index.html" class="no-external">Blogdown</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/blogdown/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9u'); return false;">
-Presentation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2Zsb3c='); return false;">
-Workflow
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/blogdown/index.html" class="no-external">This is a practical introduction to using blogdown, a package for creating websites and blogs with R Markdown. It is suitable for creating project websites and personal blogs.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/blogdown/index.html" class="no-external">
-<div class="listing-date">
-Sep 9, 2023
-</div>
-<div class="listing-author">
-Yiluan Song
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+</main></div>
+    </div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -519,13 +222,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

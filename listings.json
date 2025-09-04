@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/pinn/index.html",
+      "/blog/secret-removal/index.html",
+      "/blog/cicd/index.html",
+      "/blog/nmds/index.html",
+      "/blog/reproducible-workflow/index.html",
+      "/blog/phenology-sample-data/index.html",
+      "/blog/github/index.html",
+      "/blog/blogdown/index.html"
+    ]
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/research/sft/index.html",
@@ -29,18 +42,6 @@
       "/research/newdata/1/index.html",
       "/research/mesocosm/2/index.html",
       "/research/macrophyte/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/secret-removal/index.html",
-      "/blog/cicd/index.html",
-      "/blog/nmds/index.html",
-      "/blog/reproducible-workflow/index.html",
-      "/blog/phenology-sample-data/index.html",
-      "/blog/github/index.html",
-      "/blog/blogdown/index.html"
     ]
   }
 ]
