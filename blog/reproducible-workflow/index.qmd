@@ -37,7 +37,8 @@ There are many restrictions working only on personal computers. Others, as well 
 * Cloud storage
   * At UofM, there is [Turbo](https://arc.umich.edu/turbo/). Check my [documentation](https://docs.google.com/document/d/1woDxYgpYkxx88mcvJrYGtDL4RfYSCQkCbCjIp7EN7_Y/edit?usp=sharing) prepared for Zhu Lab for usage. There are limits on rates and quota.
   * Google Drive provides large storage for many university accounts and it can be mounted easily as a local drive. It can be accessed easily from R after authentication. Not standard practice for sensitive data.
-```{r}
+  
+```r
 # Install the googledrive package.
 if (!require(googledrive)) {
   install.packages("googledrive")
@@ -56,7 +57,8 @@ drive_ls()
 drive_download("example.txt")
 ```
   * [AWS S3](https://aws.amazon.com/s3/) buckets are fairly popular and easy to use. Recommend. You can also access it in R.
-```{r}
+
+```r
 # Install aws.s3 package if not already installed
 if (!require(aws.s3)) {
   install.packages("aws.s3")
@@ -91,7 +93,7 @@ View(data)
   * Use the correct working directory. Using R projects can help with that.
   * Use symbolic links when using external folders for storage. It is like a shortcut. You won't have to change all paths in your code, but just have to set up symbolic link again when changing computing environment. This should work in Linux but not Windows.
   
-```{bash}
+```bash
   ln -s [source] [destination]
 ```
 
@@ -110,7 +112,8 @@ We make a lot of changes in our project along the way and we can easily lose tra
   * Use different branches for different stages of the project. Here is what we recommend.
     * An "analysis" branch for preliminary analysis. This branch may be messy.
     * A "manuscript" branch to reproduce all analyses used in the manuscript during the submission stage. Code should be tidy, preferably made into package form in this branch. Data folder might be bulky, so it might be an external folder mounted with a symbolic link. An example of the structure looks like this.
-```{bash}
+
+```bash
     your_package/
     |-- DESCRIPTION
     |-- NAMESPACE
@@ -129,7 +132,8 @@ We make a lot of changes in our project along the way and we can easily lose tra
 ```
    
     * A "release" branch to provide a concise reproducible version for the public after publication. Code should be a subset of the ones in the "manuscript" branch, put into package. Small data files should be included in the package. There should not be dependency on external data folders. An example of the structure should look like this.
-```{bash}
+
+```bash
     your_package/
     |-- DESCRIPTION
     |-- NAMESPACE
@@ -161,12 +165,15 @@ This is a key part of computational reproducibility.
 * Sharing working environment, code, and data
   * This is sometimes important if your project uses some software or packages that are not commonly available, or requires specific versions of them. As you know, package installation can be very frustrating and can discourage others from reproducing your work.
   * Provide session info in readme.
-```{r}
+
+```r
 sessionInfo()
 ```
+
   * Use established base images such as [rocker](https://rocker-project.org/).
   * Build your own docker images and upload to [Docker Hub](https://hub.docker.com/). You will first need a [Dockerfile](https://codepal.ai/dockerfile-writer). After that, you can follow the steps below.
-```{bash}
+
+```bash
   # build
   docker build -t <your_image_name> .
   
@@ -189,7 +196,8 @@ Even with all code and data, we might not know the exact order to load and run t
 
 * Write scripts as functions and make packages
   * Package [_devtools_](https://devtools.r-lib.org/) and [_roxygens_](https://roxygen2.r-lib.org/) are powerful tools for package development. You can also use the GUI of RStudio.
-```{r}
+
+```r
 # create package (from parent directory)
 devtools::create("myPackage")
 
@@ -207,7 +215,8 @@ devtools::build("myPackage")
   * Some resources: [R package Primer](https://kbroman.org/pkg_primer/)
 
 * Write R vignettes (from R markdown)
-```{r}
+
+```r
 devtools::build_vignettes()
 
 # skip some steps if I have already generated cached vignettes and installed package
@@ -215,6 +224,7 @@ devtools::build_vignettes(clean = F, install = F)
 
 browseVignettes("myPackage")
 ```
+
 * Executes a series of tasks
   * Write bash scripts
     * Use cron jobs to trigger them regularly.
