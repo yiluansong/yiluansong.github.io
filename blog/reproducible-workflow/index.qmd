@@ -74,7 +74,11 @@ Sys.setenv(
 bucketlist <- get_bucket(bucket = "your_bucket_name_here")
 
 # Read a csv file from the bucket
-data <- s3read_using(FUN = read.csv, object = "your_file_name_here", bucket = "your_bucket_name_here")
+data <- s3read_using(
+  FUN = read.csv,
+  object = "your_file_name_here",
+  bucket = "your_bucket_name_here"
+  )
 
 # View dataframe
 View(data)

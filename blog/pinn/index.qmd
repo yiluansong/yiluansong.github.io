@@ -1,0 +1,58 @@
+---
+title: "Physics-informed neural networks (PINNs)"
+author: "Yiluan Song"
+date: "2025-07-27"
+categories:
+  - AI
+about:
+  template: solana
+format:
+  html:
+    toc: true
+    code-overflow: wrap
+---
+
+I prepared a series of teaching materials on **physics-informed neural networks (PINNs)** for [U-M MIDAS AI for Scientists and Engineers Summer Academy 2025](https://midas.umich.edu/events/ai-for-scientists-and-engineers-summer-academy-2025/) and pre-workshop materials for [U-M MIDAS-KGML workshop](https://midas.umich.edu/events/kgml-workshop-leading-the-new-paradigm-of-ai-for-science/).
+
+
+## [Slides](https://github.com/MIDAS-KGML/pre-workshop/blob/main/slides.pdf)
+
+A high-level overview of PINN concepts and motivation. Start here to understand the big picture and foundational ideas before diving into the code.
+
+Part of the slides were developed based on slides by Dr. Alexander Rodríguez.
+
+## [Notebooks](https://github.com/MIDAS-KGML/pre-workshop/tree/main/notebook)
+
+Explore hands-on PINN tutorials: 
+- **Notebook 1:** Harmonic oscillator (a simple example) 
+- **Notebook 2:** Cyclic voltammetry (a forward problem) 
+- **Notebook 3:** Fluid dynamics (an inverse problem)
+
+Each notebook is self-contained and designed to run in Google Colab or Jupyter.
+
+The tutorials were adapted from tutorials by Dr. Ben Moseley, Dr. Haotian Chen, and Dr. Seungchul Lee.
+
+## Recordings
+
+Part 1
+<div style="position: relative; width: 100%; padding-top: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/dV7YE5nuFfg?si=CwsCV_B0F9W37la_" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+Part 2
+
+<div style="position: relative; width: 100%; padding-top: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/CueaR9kkafA?si=FbdgLwTw3SCwWHIp" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
