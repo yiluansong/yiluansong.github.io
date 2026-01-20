@@ -3,14 +3,14 @@ title: "Forest tree phenology in a global change experiment"
 subtitle: "Warming makes forest trees grow earlier in the spring, but often not taller"
 author: 
   - __Yiluan Song__
+  - Kai Zhu
   - Yang Chen
+  - Artur Stefanski
+  - Raimundo Bermudez
   - Rebecca A. Montgomery
   - Peter B. Reich
-  - Artur Stefanski
-  - Raimundo Bermudez Villanueva
-  - Kai Zhu
-date: "2024-08-31"
-description: "Manuscript in preparation, invited oral presentation at AGU 2024"
+date: "2026-01-20"
+description: "Manuscript under review, invited oral presentation at AGU 2024"
 categories:
   - Changing phenology
   - First-author
@@ -23,12 +23,9 @@ keywords:
 about:
   template: solana
   links:
-    - text: Project Website
-      icon: link
-      url: "https://zhulabgroup.github.io/phenology-b4warmed/"
-    - text: GitHub
-      icon: github
-      url: "https://github.com/zhulabgroup/phenology-b4warmed"
+    - text: Preprint
+      icon: file
+      url: "https://doi.org/10.64898/2025.11.30.691420"
 format:
   html:
     toc: true
@@ -51,7 +48,7 @@ Climate change is causing trees to start growing earlier in the spring, but itâ€
 
 ## B4WarmED Global Change Experiment
 
-![A plot at B4WarmED experiment](1.jpeg){height=500px}
+![A plot at B4WarmED experiment](1.jpg){height=500px}
 
 ![Phenology data collected from the experiment in different forms.](2.png)
 

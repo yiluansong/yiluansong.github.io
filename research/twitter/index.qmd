@@ -1,6 +1,6 @@
 ---
 title: Public perceptions of pollen seasons under climate change
-subtitle: Biological changes, political ideology, and scientific communication shape human perceptions of pollen seasons
+subtitle: Political ideology and scientific communication shape human perceptions of pollen seasons
 author:
   - __Yiluan Song__
   - Adam Millard-Ball
@@ -8,8 +8,8 @@ author:
   - Derek Van Berkel
   - Arun Agrawal
   - Kai Zhu
-date: 2024-08-02
-description: Manuscript under review <br> Master's student Chuangbo Tong, undergraduate student Luke Hamilton, and undergraduate student Cait Schilt at the University of California, Santa Cruz contributed to the exploratory data analysis of this project.
+date: 2025-12-26
+description: _PNAS Nexus_ 2026 <br> Master's student Chuangbo Tong, undergraduate student Luke Hamilton, and undergraduate student Cait Schilt at the University of California, Santa Cruz contributed to the exploratory data analysis of this project.
 categories:
   - Allergen phenology
   - First-author
@@ -24,12 +24,12 @@ keywords:
 about:
   template: solana
   links:
-    - text: Preprint
-      icon: file
-      url: "https://doi.org/10.1101/2024.07.30.605525"
+    - text: Paper
+      icon: pdf
+      url: "https://doi.org/10.1093/pnasnexus/pgaf386"
     - text: GitHub
       icon: github
-      url: "https://github.com/zhulabgroup/phenology-twitter"
+      url: "https://github.com/zhulabgroup/phenology-twitter/tree/release"
 format:
   html:
     toc: true
@@ -46,7 +46,7 @@ format:
 
 ## Abstract
 
-Climate change is generally changing the timing and intensity of pollen seasons, thereby often increasing human exposure to allergenic pollen. Climate-driven changes in pollen seasons present a unique opportunity to craft messaging aimed at communicating climate change impacts on public health through changes in the biological systems. However, it is unclear how pollen seasons are experienced and understood by the public, including how well we detect pollen seasons or what factors we view as responsible for changes in pollen seasons. Here, we use social media data in the United States from 2012 to 2022 to assess public perceptions of pollen seasons at large spatiotemporal scales. We show that pollen seasons detected by social media (Twitter) users align well with natural pollen seasons. Attribution of changing pollen seasons, however, varies based on political ideology: liberal users, compared to conservative users, are more likely to attribute changing pollen seasons to climate change. Mass media and scientific experts play a key role in communicating how climate change drives changing pollen seasons. Our findings reveal how changes in biological systems, political ideology, and scientific communications collectively shape public perceptions of pollen seasons under climate change. Our findings constitute a step towards more effective climate change impact communication and public health intervention design.
+Climate change is altering the timing and intensity of pollen seasons, increasing human exposure to allergenic pollen. Climate-driven changes in pollen seasons present a unique opportunity to craft messaging that communicates how climate change is affecting biological systems. However, it is unclear how pollen seasons are experienced and understood by the public, including how well we detect pollen seasons and what factors we view as responsible for changes in pollen seasons. Here, we use social media data (Twitter) in the United States from 2012 to 2022 to assess public perceptions of pollen seasons across the country. We find that pollen seasons detected by social media users are consistent with natural pollen seasons. Attribution of changing pollen seasons, however, varies based on political ideology: liberal users are more likely to attribute changing pollen seasons to climate change when compared with conservative users. Mass media and scientific experts shape communication about how climate change drives changes in pollen seasons. Our findings reveal how political ideology and scientific communication affect public perceptions of pollen seasons and climate change. Our findings are a key step towards improved communication of climate change impacts.
 
 ---
 
