@@ -7,16 +7,16 @@ about:
   links:
     - text: Google Scholar
       icon: google
-      url: "https://scholar.google.com/citations?user=Wwzx8YkAAAAJ&hl=zh-CN"
+      url: "https://scholar.google.com/citations?user=Wwzx8YkAAAAJ&hl"
     - text: GitHub
       icon: github
       url: "https://github.com/yiluansong"
     - text: Email
       icon: envelope
-      url: "mailto:songyl@umich.edu"
+      url: "mailto:yiluansong@pitt.edu"
     - text: CV
       icon: file-person
-      url: "https://docs.google.com/document/d/1Hxwe0iR8H5X0eXnYDAnElDwA4bijcMan3mNqRyE2c-o/edit?usp=drive_link"
+      url: "https://docs.google.com/document/d/1YDf986ZkdAqxoHbyGBi8dKq-_o8rKeO2po2GpTa9Ekk/edit?usp=drive_link"
 comments: false
 include-after-body: _includes/statcounter.html
 ---
@@ -25,7 +25,7 @@ include-after-body: _includes/statcounter.html
 
 ## Bio
 
-I'm a Schmidt AI in Science Postdoctoral Fellow at the University of Michigan.
+I'm an Assistant Professor in the Department of Biological Sciences at the University of Pittsburgh.
 
 My research program operates at the intersection of environmental data science and global change biology. I aim to provide both theoretical insights and practical solutions to the challenges posed by our rapidly changing world.
 
@@ -39,8 +39,4 @@ Over the years, I have committed to advancing our understanding of how climate c
 - Changing biodiversity
 - Ecological forecasting
 - Allergen phenology
-
-## I am recruiting
-
-Starting from Jan 1, 2026, I will be an Assistant Professor at the University of Pittsburgh. I am now recruiting a postdoctoral researcher, a research technician, and a PhD student to start in 2026. Please read more [here](https://yiluansong.github.io/opportunities.html).
 :::
