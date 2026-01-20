@@ -1,10 +1,9 @@
 ---
 title: "Human influence on ecological synchrony"
-subtitle: "Ecological synchrony in human-modified landscapes under a changing climate"
+subtitle: "Using a social-ecological macrosystems framework to understand how human activities alter ecological synchrony"
 author: 
   - __Yiluan Song__
   - Mallory Barnes
-  - Dawn M. Browning
   - K. Ann Bybee-Finley
   - Kyla M. Dahlin
   - Travis McDevitt-Galles
@@ -14,7 +13,7 @@ author:
   - Benjamin Zuckerberg
   - Kai Zhu
 date: 2024-11-11
-description: Manuscript under review
+description: _People and Nature_ 2026
 categories:
   - Changing phenology
   - First-author
@@ -52,22 +51,28 @@ format:
 
 ## Abstract
 
-Different aspects of ecological systems, biotic or abiotic, often fluctuate in coordinated patterns over space and time. Such high concordance between ecological processes is often referred to as ecological synchrony. Anthropogenic activities, including and beyond climate change, have the potential to alter ecological synchrony by disrupting or enhancing existing synchrony. Despite many local studies, we have a limited systematic understanding of how ecological synchrony is shaped by management in human-dominated landscapes at regional to continental scales. From a macrosystems perspective, we review how anthropogenic activities, particularly beyond climate change, alter ecological synchrony across levels of ecological organization, from the ecosystem level to the population level. For each level, we use a large-scale case study to demonstrate ways to quantify the impacts of human modifications on synchrony using big data from remote sensing, surveys, and observatory networks. For example, we detected possible homogenization of population dynamics of bird species in North America. These changes in ecological synchrony, although in different forms, often represent challenges to ecological and social systems. Collaborative research efforts that integrate emerging open data streams moving forward will be able to provide insights into the effects of different anthropogenic drivers and the consequences of changes in synchrony.
+Different aspects of ecological systems, biotic or abiotic, often fluctuate in coordinated patterns over space and time. Such high concordance between ecological processes is often referred to as ecological synchrony. Human activities, including and beyond climate change, have the potential to alter ecological synchrony by disrupting or enhancing existing synchrony. However, most studies have focused on single scales, limiting our understanding of how human activities alter ecological synchrony across spatial, temporal, and organizational scales. With a social-ecological macrosystems framework, we review how human activities, particularly beyond climate change, alter ecological synchrony from the ecosystem level to the population level. For each level, we present a case study that characterizes the roles of human agents in synchrony using data from large-scale observations. We found that human activities alter ecological synchrony through interactions among drivers on multiple scales, often disrupting synchrony, but that adaptive management can maintain or restore synchrony. Human activities potentially modify cascades of synchrony through cross-scale interactions and cross-scale emergence. Finally, we recommended a set of questions to facilitate the explicit consideration of ecological synchrony as a target in sustainable management.
 
 ------------------------------------------------------------------------
 
-## Human modifying synchrony across levels of organization
+## The overlooked human dimension of ecological synchrony
 
-![Schematic representation of various possible changes in ecological synchrony with climate change and human modifications.](1.png)
+![(a) Schematic representation of various possible changes in ecological synchrony with human modifications, including but not limited to climate change. (b) Human activities potentially alter ecological synchrony across levels of ecological organization. Examples for each level are provided.](1.png)
 
-![Human activities potentially alter ecological synchrony across levels of ecological organization.](2.png)
+## A social-ecological macrosystems framework
 
-## Quantifying human modification with big data
+![Social variables (S) interact with ecological variables (E) and modify ecological synchrony among Es, through (a) within-scale coupling, (b) cross-scale interaction, and (c) cross-scale emergence.](2.png)
 
-![__Case study A (ecosystem level):__ The impact of irrigation on the synchrony between plant productivity and precipitation.](3.png)
+## Understanding human modification with the framework and big data
 
-![__Case Study B (community level):__ The impact of urbanization on the synchrony of bird population abundance among different species.](4.png)
+**Ecosystem level**
 
-![__Case Study C (meta-population level):__ The impact of havesting management on the synchrony of abundance of marine organisms among sites.](5.png)
+![Irrigation alters the synchrony at the water-energy-carbon nexus by reshaping within-scale coupling and interacting with global climate change. Irrigation alleviates the water limitation on evapotranspiration and strengthens the synchrony between evapotranspiration and temperature. Along with the synchrony between evapotranspiration and crop productivity, irrigation introduces a pathway to enhance the synchrony between a warming climate and crop yield.](3.png)
 
-![__Case Study D (population level):__ The impact of temperature on the synchrony of mosquito emergence between individuals.](6.png)
+![The impact of irrigation on the synchrony between temperature, latent heat flux, and gross primary productivity.](4.png) **Community level**
+
+![Anthropogenic land use (e.g., agriculture) might synchronize the demographic changes of bird species in a community with cross-scale interactions, either directly through the available habitat for species, or indirectly through elevated fluctuations in temperature. The increased synchrony among bird species might threaten the stability of the community and the pest control ecosystem service it provides.](5.png) ![The impact of urbanization on the synchrony of bird population abundance among different species.](6.png) **Meta-population level**
+
+![Local fishing effort under a regional strategy of managed harvesting influences fish abundance as geographically disjunct locations, thereby altering the spatial synchrony in the fish meta-population through cross-scale emergence. Total abundance in the meta-population in turn influences local yield and harvesting strategy.](7.png) ![The impact of havesting management on the synchrony of abundance of marine organisms among sites.](8.png) **Population level**
+
+![We hypothesize that urban heat islands alter the synchrony of mosquito life cycles within local populations (cross-scale interaction), which in turn influences the timing and magnitude of disease risk in urban areas.](9.png) ![The impact of temperature on the synchrony of mosquito emergence between individuals.](10.png)

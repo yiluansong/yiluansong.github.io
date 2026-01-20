@@ -1,0 +1,44 @@
+---
+title: Role of plasticity and adaptation in phenological responses
+author:
+  - Yi Liu
+  - __Yiluan Song__
+  - William Weaver
+  - Kerby Shedden
+  - Yang Chen
+  - Stephen Smith
+  - Kai Zhu
+date: 2025-03-31
+description: Manuscript under review <br> Yi Liu was a 2022 cohort Ph.D. student at the University of Michigan.
+categories:
+  - Ecological forecasting
+  - Changing phenology
+  - Student-led
+keywords:
+  - global change biology
+  - environmental data science
+  - phenological sensitivity
+  - space-for-time substitution
+about:
+  template: solana
+  links:
+    - text: Preprint
+      icon: file
+      url: "https://doi.org/10.1101/2025.08.26.672405"
+format:
+  html:
+    toc: true
+---
+
+## Highlights
+
+- **Climate change is shifting the flowering phenology of wind-pollinated trees. It is key quantify the sensitivity and understand the mechanisms of these phenological responses.**
+- **We investigated the temperature sensitivity of flowering phenology in 74 wind-pollinated tree species across the US using long-term herbarium records spanning over a century.**
+- **We compared spatial and temporal sensitivities in multiple wind-pollinated species to evaluate the roles of plasticity and adaptation in phenological responses of flowering.**
+
+---
+
+## Comparing spatial and temporal sensitivities
+
+![](1.jpg)
+![](2.jpg)
