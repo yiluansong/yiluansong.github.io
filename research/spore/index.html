@@ -13,9 +13,9 @@
 <meta name="author" content="Kabir G. Peay">
 <meta name="author" content="Kerby Shedden">
 <meta name="author" content="Kai Zhu">
-<meta name="dcterms.date" content="2024-10-24">
+<meta name="dcterms.date" content="2025-06-30">
 <meta name="keywords" content="global change biology, environmental data science, airborne allergen, allergy, climate change fingerprint, human pathogen, phenology, public health">
-<meta name="description" content="Manuscript under review   Ruoyu Wu was a Master’s student at the University of Michigan.">
+<meta name="description" content="GeoHealth 2025   Ruoyu Wu was a Master’s student at the University of Michigan.">
 
 <title>Changing fungal spore phenology – Yiluan Song</title>
 <style>
@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bba377fd3b4429a0b04f9c67bcb50db9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f3c2ea88cadbcfb37ba28ffa2c97cfc1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
 <div>
   <div class="description">
-    Manuscript under review <br> Ruoyu Wu was a Master’s student at the University of Michigan.
+    <em>GeoHealth</em> 2025 <br> Ruoyu Wu was a Master’s student at the University of Michigan.
   </div>
 </div>
 <div class="quarto-title-meta">
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 24, 2024</p>
+      <p class="date">June 30, 2025</p>
     </div>
   </div>
   </div>
@@ -199,9 +199,13 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
 </div>
 </header> <div class="about-links">
-  <a href="https://doi.org/10.1101/2024.10.21.619107" class="about-link" rel="" target="">
-    <i class="bi bi-file"></i>
-     <span class="about-link-text">Preprint</span>
+  <a href="https://doi.org/10.1029/2024GH001323" class="about-link" rel="" target="">
+    <i class="bi bi-pdf"></i>
+     <span class="about-link-text">Paper</span>
+  </a>
+  <a href="https://github.com/zhulabgroup/phenology-spore/tree/release" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
   </a>
 </div>
       <div class="about-contents"><main class="content" id="quarto-document-content">
@@ -209,29 +213,28 @@ document.addEventListener('DOMContentLoaded', function () {
 <section id="highlights" class="level2">
 <h2 data-anchor-id="highlights">Highlights</h2>
 <ul>
-<li><strong>The onset of both ecological and allergenic fungal spore seasons has advanced across the US from 2003 to 2022.</strong></li>
-<li><strong>Concurrently, the overall intensity of fungal spore seasons has seen a decline.</strong></li>
+<li><strong>In the United States, the onsets of both ecological and allergenic fungal spore seasons advanced from 2003 to 2022, with declined intensity.</strong></li>
 <li><strong>Earlier onset of ecological spore seasons was correlated with higher temperature and lower precipitation.</strong></li>
-<li><strong>Lower spore season intensity was correlated with lower precipitation.</strong></li>
+<li><strong>Lower intensity of spore season was correlated with lower precipitation levels.</strong></li>
 </ul>
 <hr>
 </section>
 <section id="abstract" class="level2">
 <h2 data-anchor-id="abstract">Abstract</h2>
-<p>Phenological shifts due to climate change have been extensively studied in plants and animals, yet the responses of fungal spores—crucial organisms that play important roles in ecosystems and act as airborne allergens—remain understudied. This knowledge gap in global change biology hinders our understanding of its ecological and public health implications. To bridge this gap, we first acquired a long-term (2003 — 2022), and large-scale (the continental US) dataset of airborne fungal spores collected by the US National Allergy Bureau. We then extracted ten metrics describing the phenology (e.g., start and end of season) and intensity (e.g., peak concentration and integral) of fungal spore seasons using both ecological and public health approaches, defined as percentiles of total spore concentration and allergenic thresholds of spore concentration, respectively. Using linear mixed effects models, we quantified annual temporal shifts in these metrics across the continental US. We revealed that the onset of the spore season has significantly advanced from both ecological (11 days, 95% confidence interval: 0.4 — 23 days) and public health (22 days, 6 — 38 days) perspectives over two decades. Nevertheless, the total spore concentration in an annual cycle and in a spore allergy season tended to decrease over time. The earlier start of the spore season was significantly correlated with climatic variables, such as warmer temperatures and altered precipitations. Overall, our findings suggest possible climate-driven advanced fungal spore seasons, highlighting the importance of climate change mitigation and adaptation in public health decision-making.</p>
+<p>Phenological shifts due to climate change have been extensively studied in plants and animals. Yet, the responses of fungal spores—organisms important to ecosystems and major airborne allergens—remain understudied. This knowledge gap limits our understanding of their ecological and public health implications. To address this, we analyzed a long-term (2003–2022), large-scale (the continental US) data set of airborne fungal spores collected by the US National Allergy Bureau. We first pre-processed the spore data by gap-filling and smoothing. Afterward, we extracted 10 metrics describing the phenology (e.g., start and end of season) and intensity (e.g., peak concentration and integral) of fungal spore seasons. These metrics were derived using two complementary but not mutually exclusive approaches—ecological and public health approaches, defined as percentiles of total spore concentration and allergenic thresholds of spore concentration, respectively. Using linear mixed-effects models, we quantified annual shifts in these metrics across the continental US. We revealed a significant advancement in the onset of the spore seasons defined in both ecological (11 days, 95% confidence interval: 0.4–23 days) and public health (22 days, 6–38 days) approaches over two decades. Meanwhile, total spore concentrations in an annual cycle and in a spore allergy season tended to decrease over time. The earlier start of the spore season was significantly correlated with climatic variables, such as warmer temperatures and altered precipitations. Overall, our findings suggest possible climate-driven advanced fungal spore seasons, highlighting the importance of climate change mitigation and adaptation in public health decision-making.</p>
 <hr>
 </section>
 <section id="characterizing-fungal-spore-seasons" class="level2">
 <h2 data-anchor-id="characterizing-fungal-spore-seasons">Characterizing fungal spore seasons</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="1.png" class="img-fluid figure-img"></p>
+<p><img src="1.jpg" class="img-fluid figure-img"></p>
 <figcaption>Fungal spore calendar for ten sampling stations.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="2.png" class="img-fluid figure-img"></p>
+<p><img src="2.jpg" class="img-fluid figure-img"></p>
 <figcaption>Definition and numerical summary of ten fungal spore metrics.</figcaption>
 </figure>
 </div>
@@ -240,13 +243,13 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 data-anchor-id="shifts-in-fungal-spore-seasons">Shifts in fungal spore seasons</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="3.png" class="img-fluid figure-img"></p>
+<p><img src="3.jpg" class="img-fluid figure-img"></p>
 <figcaption>Station-level temporal trends of the start of allergy season.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="4.png" class="img-fluid figure-img"></p>
+<p><img src="4.jpg" class="img-fluid figure-img"></p>
 <figcaption>Temporal trends of ten fungal spore metrics across all the stations.</figcaption>
 </figure>
 </div>
@@ -255,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <h2 data-anchor-id="relationship-with-climatic-factors">Relationship with climatic factors</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="5.png" class="img-fluid figure-img"></p>
+<p><img src="5.jpg" class="img-fluid figure-img"></p>
 <figcaption>Regression coefficients of spore season metrics against climatic variables.</figcaption>
 </figure>
 </div>
