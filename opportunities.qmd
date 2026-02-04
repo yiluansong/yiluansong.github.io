@@ -1,6 +1,7 @@
 ---
 title: "Opportunities"
 comments: false
+include-after-body: _includes/statcounter.html
 ---
 
 ::: column-page

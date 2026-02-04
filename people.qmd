@@ -1,0 +1,28 @@
+---
+title: "People"
+format: html
+listing: 
+  - id: PI
+    contents: people/PI
+    type: grid
+    categories: false
+    sort: "order"
+    fields: [image, title] 
+  - id: technician
+    contents: people/technician
+    type: grid
+    categories: false
+    sort: "order"
+    fields: [image, title] 
+include-after-body: _includes/statcounter.html
+---
+
+## Principal Investigator
+
+::: {#PI}
+:::
+
+## Research Technician
+
+::: {#technician}
+:::

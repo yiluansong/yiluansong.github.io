@@ -2,12 +2,14 @@ project:
   type: website
 
 website:
-  title: Yiluan Song
+  title: Song Lab
   favicon: otter.png
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: people.qmd
+        text: People
       - href: research.qmd
         text: Research
       - href: blog.qmd

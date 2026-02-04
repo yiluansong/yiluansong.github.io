@@ -6,4 +6,5 @@ listing:
   contents: research
   sort: "date desc"
   categories: true
+include-after-body: _includes/statcounter.html
 ---

@@ -1,0 +1,30 @@
+---
+title: "Yiluan Song"
+image: Song.png
+about:
+  template: trestles
+  links:
+    - text: Google Scholar
+      icon: google
+      url: "https://scholar.google.com/citations?user=Wwzx8YkAAAAJ&hl"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/yiluansong"
+    - text: Email
+      icon: envelope
+      url: "mailto:yiluansong@pitt.edu"
+    - text: CV
+      icon: file-person
+      url: "https://docs.google.com/document/d/1YDf986ZkdAqxoHbyGBi8dKq-_o8rKeO2po2GpTa9Ekk/edit?usp=drive_link"
+comments: false
+---
+
+::: column-page
+
+I'm an Assistant Professor in the Department of Biological Sciences at the University of Pittsburgh.
+
+My research program operates at the intersection of environmental data science and global change biology. I aim to provide both theoretical insights and practical solutions to the challenges posed by our rapidly changing world.
+
+Over the years, I have committed to advancing our understanding of how climate change impacts phenology and biodiversity, with implications for both natural and social systems. My current work further integrates AI methodologies with ecological research. My research vision centers on three key pillars: harnessing big data, informing decision-making, and advancing ecological theories.
+
+:::

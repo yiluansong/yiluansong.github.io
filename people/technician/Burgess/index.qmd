@@ -1,0 +1,17 @@
+---
+title: "Andrew Burgess"
+image: andrew headshot lab.jpg
+about:
+  template: trestles
+  links:
+    - text: Email
+      icon: envelope
+      url: "mailto:ADB446@pitt.edu"
+comments: false
+---
+
+::: column-page
+
+I’m a Research Technician in Dr. Yiluan Song’s lab. There, I’m working on urban bioaerosol sampling and data science to improve our understanding of spatial and temporal variations in bioaerosol concentrations. My past research experiences have included air and water quality studies, spanning field, lab, and data science work. I’m also interested in science communication and filmmaking, and have produced research films for labs and organizations across a variety of research topics.
+
+:::
