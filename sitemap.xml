@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yiluansong.github.io/research.html</loc>
-    <lastmod>2026-01-20T21:16:37.502Z</lastmod>
+    <lastmod>2026-02-04T22:33:06.198Z</lastmod>
   </url>
   <url>
     <loc>https://yiluansong.github.io/research/twitter/index.html</loc>
@@ -57,48 +57,60 @@
     <lastmod>2026-01-20T21:16:37.591Z</lastmod>
   </url>
   <url>
-    <loc>https://yiluansong.github.io/opportunities.html</loc>
-    <lastmod>2026-01-20T21:16:37.385Z</lastmod>
+    <loc>https://yiluansong.github.io/people.html</loc>
+    <lastmod>2026-02-04T22:32:43.125Z</lastmod>
   </url>
   <url>
-    <loc>https://yiluansong.github.io/blog.html</loc>
-    <lastmod>2026-01-20T21:16:36.714Z</lastmod>
+    <loc>https://yiluansong.github.io/people/PI/Song/index.html</loc>
+    <lastmod>2026-02-04T22:31:48.845Z</lastmod>
   </url>
   <url>
-    <loc>https://yiluansong.github.io/blog/reproducible-workflow/index.html</loc>
-    <lastmod>2026-01-20T21:16:37.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yiluansong.github.io/blog/phenology-sample-data/index.html</loc>
-    <lastmod>2026-01-20T21:16:37.259Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yiluansong.github.io/blog/github/index.html</loc>
-    <lastmod>2026-01-20T21:16:36.731Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yiluansong.github.io/blog/blogdown/index.html</loc>
-    <lastmod>2026-01-20T21:16:36.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yiluansong.github.io/blog/cicd/index.html</loc>
-    <lastmod>2026-01-20T21:16:36.725Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yiluansong.github.io/blog/nmds/index.html</loc>
-    <lastmod>2026-01-20T21:16:36.801Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yiluansong.github.io/blog/pinn/index.html</loc>
-    <lastmod>2026-01-20T21:16:37.371Z</lastmod>
+    <loc>https://yiluansong.github.io/index.html</loc>
+    <lastmod>2026-02-04T22:10:49.089Z</lastmod>
   </url>
   <url>
     <loc>https://yiluansong.github.io/blog/secret-removal/index.html</loc>
     <lastmod>2026-01-20T21:16:37.380Z</lastmod>
   </url>
   <url>
-    <loc>https://yiluansong.github.io/index.html</loc>
-    <lastmod>2026-01-20T22:06:41.251Z</lastmod>
+    <loc>https://yiluansong.github.io/blog/pinn/index.html</loc>
+    <lastmod>2026-01-20T21:16:37.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog/nmds/index.html</loc>
+    <lastmod>2026-01-20T21:16:36.801Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog/cicd/index.html</loc>
+    <lastmod>2026-01-20T21:16:36.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog/blogdown/index.html</loc>
+    <lastmod>2026-01-20T21:16:36.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog/github/index.html</loc>
+    <lastmod>2026-01-20T21:16:36.731Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog/phenology-sample-data/index.html</loc>
+    <lastmod>2026-01-20T21:16:37.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog/reproducible-workflow/index.html</loc>
+    <lastmod>2026-01-20T21:16:37.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/blog.html</loc>
+    <lastmod>2026-02-04T22:32:56.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/opportunities.html</loc>
+    <lastmod>2026-02-04T22:33:16.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yiluansong.github.io/people/technician/Burgess/index.html</loc>
+    <lastmod>2026-02-04T22:31:28.975Z</lastmod>
   </url>
   <url>
     <loc>https://yiluansong.github.io/research/b4warmed/index.html</loc>

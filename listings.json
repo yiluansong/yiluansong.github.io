@@ -32,6 +32,13 @@
     ]
   },
   {
+    "listing": "/people.html",
+    "items": [
+      "/people/PI/Song/index.html",
+      "/people/technician/Burgess/index.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/blog/pinn/index.html",
