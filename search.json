@@ -427,11 +427,25 @@
     "text": "No matching items"
   },
   {
+    "objectID": "people.html#postdoc",
+    "href": "people.html#postdoc",
+    "title": "People",
+    "section": "Postdoc",
+    "text": "Postdoc\n\n\n\n\n\n\n\n\n\n\nXianrui Ha\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "people.html#research-technician",
     "href": "people.html#research-technician",
     "title": "People",
     "section": "Research Technician",
-    "text": "Research Technician\n\n\n\n\n\n\n\n\n\n\nAndrew Burgess\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Technician\n\n\n\n\n\n\n\n\n\n\nAndrew Burgess\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrianna Shepherd\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/technician/Burgess/index.html",
+    "href": "people/technician/Burgess/index.html",
+    "title": "Andrew Burgess",
+    "section": "",
+    "text": "I’m a Research Technician in Dr. Yiluan Song’s lab. There, I’m working on urban bioaerosol sampling and data science to improve our understanding of spatial and temporal variations in bioaerosol concentrations. My past research experiences have included air and water quality studies, spanning field, lab, and data science work. I’m also interested in science communication and filmmaking, and have produced research films for labs and organizations across a variety of research topics."
   },
   {
     "objectID": "people/PI/Song/index.html",
@@ -798,11 +812,18 @@
     "text": "The University of Pittsburgh is a top-ranked public research university known for its strong commitment to interdisciplinary scholarship and societal impact. The Department of Biological Sciences is a vibrant and collaborative community spanning ecology and evolution, molecular biology, and neuroscience. It offers a supportive environment for cutting-edge research and graduate training. Located in the affordable and culturally rich city of Pittsburgh, the university is situated in a hub of green spaces, world-class museums, and a thriving tech and healthcare ecosystem. Pittsburgh is consistently ranked among the most livable cities in the U.S., with access to nature, diverse neighborhoods, and a strong sense of community."
   },
   {
-    "objectID": "people/technician/Burgess/index.html",
-    "href": "people/technician/Burgess/index.html",
-    "title": "Andrew Burgess",
+    "objectID": "people/postdoc/Ha/index.html",
+    "href": "people/postdoc/Ha/index.html",
+    "title": "Xianrui Ha",
     "section": "",
-    "text": "I’m a Research Technician in Dr. Yiluan Song’s lab. There, I’m working on urban bioaerosol sampling and data science to improve our understanding of spatial and temporal variations in bioaerosol concentrations. My past research experiences have included air and water quality studies, spanning field, lab, and data science work. I’m also interested in science communication and filmmaking, and have produced research films for labs and organizations across a variety of research topics."
+    "text": "I am a postdoctoral researcher in Professor Song’s research group. My research primarily focuses on the response of phytoplankton community dynamics and productivity in freshwater ecosystems under the global change. My goal is to utilize ecological approaches to investigate the evolving natural environment driven by climate change, and to forecast the ecological challenges we face. Through years of extensive field investigations, laboratory analyses, and data modeling, I have accumulated profound research experience. I have deeply explored the underlying mechanisms by which nutrient cycling and microplastics impact phytoplankton biomass and community dynamics. Moving forward, I plan to build upon my research background and integrate emerging technologies to explore trending issues in ecology."
+  },
+  {
+    "objectID": "people/technician/Shepherd/index.html",
+    "href": "people/technician/Shepherd/index.html",
+    "title": "Brianna Shepherd",
+    "section": "",
+    "text": "I am a Research Technician in Dr. Yiluan Song’s lab where I will be studying pollen phenology across tree species. My previous research has primarily focused on understanding ecosystem impacts as a result of forest diseases, specifically beech leaf disease (BLD), in the eastern United States. In addition, I have contributed to research efforts studying phenology of spring ephemerals in a changing climate, and impacts of forest management on seedling recruitment and invasive species."
   },
   {
     "objectID": "research/b4warmed/index.html",
