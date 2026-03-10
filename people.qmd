@@ -5,12 +5,21 @@ listing:
   - id: PI
     contents: people/PI
     type: grid
+    image-height: 250px
+    categories: false
+    sort: "order"
+    fields: [image, title] 
+  - id: postdoc
+    contents: people/postdoc
+    image-height: 250px
+    type: grid
     categories: false
     sort: "order"
     fields: [image, title] 
   - id: technician
     contents: people/technician
     type: grid
+    image-height: 250px
     categories: false
     sort: "order"
     fields: [image, title] 
@@ -21,6 +30,12 @@ include-after-body: _includes/statcounter.html
 
 ::: {#PI}
 :::
+
+## Postdoc
+
+::: {#postdoc}
+:::
+
 
 ## Research Technician
 

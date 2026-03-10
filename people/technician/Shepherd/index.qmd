@@ -1,0 +1,16 @@
+---
+title: "Brianna Shepherd"
+image: Headshot.jpg
+about:
+  template: trestles
+  links:
+    - text: Email
+      icon: envelope
+      url: "mailto:BLS227@pitt.edu"
+comments: false
+---
+
+::: column-page
+
+I am a Research Technician in Dr. Yiluan Song's lab where I will be studying pollen phenology across tree species. My previous research has primarily focused on understanding ecosystem impacts as a result of forest diseases, specifically beech leaf disease (BLD), in the eastern United States. In addition, I have contributed to research efforts studying phenology of spring ephemerals in a changing climate, and impacts of forest management on seedling recruitment and invasive species.
+:::

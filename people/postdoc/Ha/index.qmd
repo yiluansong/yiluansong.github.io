@@ -1,0 +1,25 @@
+---
+title: "Xianrui Ha"
+image: headshot.jpg
+about:
+  template: trestles
+  links:
+    - text: Google Scholar
+      icon: google
+      url: "https://scholar.google.com/citations?user=YWsAesgAAAAJ"
+    - text: Research Gate
+      icon: file
+      url: "https://www.researchgate.net/profile/Xianrui-Ha?ev=hdr_xprf"
+    - text: Email
+      icon: envelope
+      url: "mailto:XIH203@pitt.edu"
+comments: false
+---
+
+::: column-page
+
+I am a postdoctoral researcher in Professor Song's research group.
+My research primarily focuses on the response of phytoplankton community dynamics and productivity in freshwater ecosystems under the global change. My goal is to utilize ecological approaches to investigate the evolving natural environment driven by climate change, and to forecast the ecological challenges we face.
+Through years of extensive field investigations, laboratory analyses, and data modeling, I have accumulated profound research experience. I have deeply explored the underlying mechanisms by which nutrient cycling and microplastics impact phytoplankton biomass and community dynamics. Moving forward, I plan to build upon my research background and integrate emerging technologies to explore trending issues in ecology.
+
+:::
