@@ -1,0 +1,30 @@
+---
+title: Spatial heterogeneity of pollen dynamics in an urban landscape
+author: 
+  - __Andrew Burgess__
+  - __Yiluan Song__
+description: Ongoing project
+date: 2026-04-20
+categories: 
+  - Ecological forecasting
+  - Pollen
+  - Student-led
+keywords:
+  - pollen allergy
+  - climate change
+  - urbanization
+  - time series
+  - airborne sampling
+about:
+  template: solana
+---
+
+## Highlights
+
+------------------------------------------------------------------------
+
+## Abstract
+
+
+------------------------------------------------------------------------
+

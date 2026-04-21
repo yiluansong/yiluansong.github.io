@@ -1,0 +1,37 @@
+---
+title: "SeasonFM: A multimodal foundation model for Earth's seasonal rhythms"
+author: 
+  - __Yiluan Song__
+  - __Song Lab members__
+description: Ongoing project
+date: 2026-04-21
+categories: 
+  - Changing phenology
+  - Data revolution
+keywords:
+  - global change biology
+  - environmental data science
+  - phenology
+  - machine learning
+  - foundation model
+about:
+  template: solana
+---
+
+## Highlights
+
+
+------------------------------------------------------------------------
+
+## Abstract
+
+
+------------------------------------------------------------------------
+
+## Use case: reconstruct earth’s seasonality
+
+<video autoplay loop muted playsinline width="100%">
+  <source src="6.mp4" type="video/mp4">
+</video>
+
+Monet's water lily pond over different seasons, generated using Google Flow.
