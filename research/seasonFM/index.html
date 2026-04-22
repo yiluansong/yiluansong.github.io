@@ -203,19 +203,43 @@ document.addEventListener('DOMContentLoaded', function () {
 </section>
 <section id="multimodal-data-on-seasonality" class="level2">
 <h2 data-anchor-id="multimodal-data-on-seasonality">Multimodal data on seasonality</h2>
-<p><img src="multimodal data.png" class="img-fluid"></p>
+<p>Earth’s seasonality is observed through an extraordinary diversity of data sources, from satellites orbiting hundreds of kilometers above to citizen scientists photographing flowers on their morning walks. These sources span images (satellite imagery, PhenoCam canopy photos, digitized herbarium specimens, iNaturalist field photos, dashcam footage), text (field notes, photo captions, historical literature, social media posts), and tabular records (phenophase status, image labels, time series of vegetation indices). Each source captures a different facet of seasonal change, at different scales and levels of detail. SeasonFM is designed to learn from these data streams simultaneously and to learn the relationships between them.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="multimodal data.png" class="img-fluid figure-img"></p>
+<figcaption>Massive observational data on seasonality exist in multiple modalities: images, text, and tabular records, with connections between datasets shown with connecting lines.</figcaption>
+</figure>
+</div>
 </section>
 <section id="our-fully-annotated-training-data" class="level2">
 <h2 data-anchor-id="our-fully-annotated-training-data">Our fully-annotated training data</h2>
-<p><img src="our data.png" class="img-fluid"></p>
+<p>Rigorous evaluation of a multimodal model requires ground truth data where every modality is simultaneously observed, a combination rarely available in phenology research. Therefore, we are generating a high-quality fully-annotated dataset including field images, satellite imagery, field notes, and detailed phenophase status labels for 25 trees observed weekly. This effort provides the clean, well-controlled data needed to validate SeasonFM’s approach for cross-modal predictions before scaling.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="our data.png" class="img-fluid figure-img"></p>
+<figcaption>A snapshot of our fully-annotated dataset being generated in Spring 2026, prepared by Brianna Shepherd.</figcaption>
+</figure>
+</div>
 </section>
 <section id="proposed-model-architecture" class="level2">
 <h2 data-anchor-id="proposed-model-architecture">Proposed model architecture</h2>
-<p><img src="model architecture.png" class="img-fluid"></p>
+<p>SeasonFM will take images, text, and tabular observations as inputs, each processed by a dedicated encoder: a Vision Transformer for images, a BERT-like transformer for text, and an MLP for tabular data. The resulting token sequences are concatenated and passed through a deep fusion transformer, which learns to integrate information across all modalities through full self-attention. The model is trained with contrastive, predictive, and generative loss objectives, and produces a fused embedding that captures high-dimensional seasonal information. A custom circular loss function ensures the model correctly represents the cyclical nature of calendar time.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="model architecture.png" class="img-fluid figure-img"></p>
+<figcaption>Model architecture diagram proposed by Yiluan Song.</figcaption>
+</figure>
+</div>
 </section>
 <section id="proof-of-concept" class="level2">
 <h2 data-anchor-id="proof-of-concept">Proof of concept</h2>
-<p><img src="poc.png" class="img-fluid"></p>
+<p>As a first test of SeasonFM’s core idea, we trained a simplified model using a frozen CLIP backbone and a shallow fusion transformer on a small tri-modal dataset of plant images from the <a href="https://usa-npn.smugmug.com/USA-NPN-Plant-Phenophases-Gallery">USA-NPN Plant Phenophases Gallery</a>, text descriptions, and binary phenophase status records. The model produced clear seasonal clustering in both modality-specific and fused latent spaces, confirming that meaningful seasonal representations emerge from multimodal training. Notably, images and text data contain richer details thatare not captured by tabular data, such as whether the flowers are male or female, which might have distinct seasonality. The simplified model reached 87.0% and 95.7% accuracy in predicting the status of “open flowers” from images alone and from images and texts, respectively.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="poc.png" class="img-fluid figure-img"></p>
+<figcaption>Inputs, learned latent spaces, and out-of-sample model performance from a simplified version of SeasonFM, trained on a small dataset. Training data were retrieved from USA-NPN and labeled by Brianna Shepherd.</figcaption>
+</figure>
+</div>
 </section>
 <section id="use-case-forecasting-pollen-concentration" class="level2">
 <h2 data-anchor-id="use-case-forecasting-pollen-concentration">Use case: forecasting pollen concentration</h2>
@@ -225,7 +249,9 @@ document.addEventListener('DOMContentLoaded', function () {
 <video autoplay="" loop="" muted="" playsinline="" width="100%">
 <source src="6.mp4" type="video/mp4">
 </video>
-<p>Monet’s water lily pond over different seasons, generated using Google Flow.</p>
+<div class="figure-caption">
+<p>Monet’s water lily pond across seasons, generated by Google Flow. Current generative AI models produce vivid seasonal scenes but often misrepresent the seasonality of organisms, a gap that SeasonFM could help bridge.</p>
+</div>
 
 
 </section>
