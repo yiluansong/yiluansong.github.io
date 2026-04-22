@@ -1218,11 +1218,53 @@
     "text": "Predicting urban pollen allergy landscape\n\n\n\nMaps of PlanetScope-derived pollen emission time in Detroit street trees in the spring of 2018, one for each genera. A brighter color indicates an earlier estimated pollen emission time from an individual tree, showing spatial heterogeneity in pollen phenology within each city and genus."
   },
   {
+    "objectID": "research/seasonFM/index.html",
+    "href": "research/seasonFM/index.html",
+    "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
+    "section": "",
+    "text": "Earth’s biological clock is losing synchrony: spring arrives earlier, but not all organisms keep pace. Every day, billions of observations accumulate across satellites, herbarium collections, and smartphones, yet these data streams remain siloed and incompatible, preventing the integrated understanding we urgently need. We propose SeasonFM, a multimodal foundation model. By learning any-to-any translation across images, text, and tabular observations, SeasonFM synthesizes Earth’s diverse seasonal data into a unified biological clock, enabling researchers to reconstruct centuries of seasonal change, mobilize previously untapped data sources, and forecast the consequences of disrupted synchrony for biodiversity and human well-being."
+  },
+  {
     "objectID": "research/seasonFM/index.html#abstract",
     "href": "research/seasonFM/index.html#abstract",
     "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
-    "section": "Abstract",
-    "text": "Abstract"
+    "section": "",
+    "text": "Earth’s biological clock is losing synchrony: spring arrives earlier, but not all organisms keep pace. Every day, billions of observations accumulate across satellites, herbarium collections, and smartphones, yet these data streams remain siloed and incompatible, preventing the integrated understanding we urgently need. We propose SeasonFM, a multimodal foundation model. By learning any-to-any translation across images, text, and tabular observations, SeasonFM synthesizes Earth’s diverse seasonal data into a unified biological clock, enabling researchers to reconstruct centuries of seasonal change, mobilize previously untapped data sources, and forecast the consequences of disrupted synchrony for biodiversity and human well-being."
+  },
+  {
+    "objectID": "research/seasonFM/index.html#multimodal-data-on-seasonality",
+    "href": "research/seasonFM/index.html#multimodal-data-on-seasonality",
+    "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
+    "section": "Multimodal data on seasonality",
+    "text": "Multimodal data on seasonality"
+  },
+  {
+    "objectID": "research/seasonFM/index.html#our-fully-annotated-training-data",
+    "href": "research/seasonFM/index.html#our-fully-annotated-training-data",
+    "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
+    "section": "Our fully-annotated training data",
+    "text": "Our fully-annotated training data"
+  },
+  {
+    "objectID": "research/seasonFM/index.html#proposed-model-architecture",
+    "href": "research/seasonFM/index.html#proposed-model-architecture",
+    "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
+    "section": "Proposed model architecture",
+    "text": "Proposed model architecture"
+  },
+  {
+    "objectID": "research/seasonFM/index.html#proof-of-concept",
+    "href": "research/seasonFM/index.html#proof-of-concept",
+    "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
+    "section": "Proof of concept",
+    "text": "Proof of concept"
+  },
+  {
+    "objectID": "research/seasonFM/index.html#use-case-forecasting-pollen-concentration",
+    "href": "research/seasonFM/index.html#use-case-forecasting-pollen-concentration",
+    "title": "SeasonFM: A multimodal foundation model for Earth’s seasonal rhythms",
+    "section": "Use case: forecasting pollen concentration",
+    "text": "Use case: forecasting pollen concentration"
   },
   {
     "objectID": "research/seasonFM/index.html#use-case-reconstruct-earths-seasonality",
