@@ -28,7 +28,7 @@ Earth's biological clock is losing synchrony: spring arrives earlier, but not al
 
 Earth's seasonality is observed through an extraordinary diversity of data sources, from satellites orbiting hundreds of kilometers above to citizen scientists photographing flowers on their morning walks. These sources span images (satellite imagery, PhenoCam canopy photos, digitized herbarium specimens, iNaturalist field photos, dashcam footage), text (field notes, photo captions, historical literature, social media posts), and tabular records (phenophase status, image labels, time series of vegetation indices). Each source captures a different facet of seasonal change, at different scales and levels of detail. SeasonFM is designed to learn from these data streams simultaneously and to learn the relationships between them.
 
-![Massive observational data on seasonality exist in multiple modalities: images, text, and tabular records, with connections between datasets shown with connecting lines.](multimodal data.png)
+![Massive observational data on seasonality exist in multiple modalities: images, text, and tabular records, with connections between datasets shown with connecting lines. Eve Carter contributed to the preparation of this figure.](multimodal data.png)
 
 ## Our fully-annotated training data
 
@@ -40,7 +40,7 @@ Rigorous evaluation of a multimodal model requires ground truth data where every
 
 SeasonFM will take images, text, and tabular observations as inputs, each processed by a dedicated encoder: a Vision Transformer for images, a BERT-like transformer for text, and an MLP for tabular data. The resulting token sequences are concatenated and passed through a deep fusion transformer, which learns to integrate information across all modalities through full self-attention. The model is trained with contrastive, predictive, and generative loss objectives, and produces a fused embedding that captures high-dimensional seasonal information. A custom circular loss function ensures the model correctly represents the cyclical nature of calendar time.
 
-![Model architecture diagram proposed by Yiluan Song.](model architecture.png)
+![Model architecture diagram proposed by Yiluan Song. Xianrui Ha contributed to the preparation of this figure.](model architecture.png)
 
 ## Proof of concept
 
