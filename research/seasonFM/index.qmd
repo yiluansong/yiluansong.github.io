@@ -50,6 +50,8 @@ As a first test of SeasonFM's core idea, we trained a simplified model using a f
 
 ## Use case: forecasting pollen concentration
 
+![](pollen.png)
+
 ## Use case: reconstruct earth’s seasonality
 
 SeasonFM will be used to reconstruct Earth's seasonal rhythms across centuries by unlocking the full potential of historical data sources. Herbarium specimens have been used to study long-term phenological change, but typically by extracting single metrics, such as the date of first flower, discarding the rich visual information about the degree and progression of seasonal change captured in the image itself. By learning relationships between herbarium images, handwritten labels, and structured records, SeasonFM can extract nuanced seasonal information, illuminate historical trends and patterns, and allowing us to reimagine what Earth's spring once looked like. 
