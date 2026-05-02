@@ -34,7 +34,7 @@ Earth's seasonality is observed through an extraordinary diversity of data sourc
 
 Rigorous evaluation of a multimodal model requires ground truth data where every modality is simultaneously observed, a combination rarely available in phenology research. Therefore, we are generating a high-quality fully-annotated dataset including field images, satellite imagery, field notes, and detailed phenophase status labels for 25 trees observed weekly. This effort provides the clean, well-controlled data needed to validate SeasonFM's approach for cross-modal predictions before scaling.
 
-![A snapshot of our fully-annotated dataset being generated in Spring 2026, prepared by Brianna Shepherd.](our data.png)
+![A snapshot of our fully-annotated dataset being generated in Spring 2026, prepared by Brianna Shepherd. Satellite imagery (Sentinel-2) were retreived using Google Earth Engine.](our data.png)
 
 ## Proposed model architecture
 
@@ -50,7 +50,9 @@ As a first test of SeasonFM's core idea, we trained a simplified model using a f
 
 ## Use case: forecasting pollen concentration
 
-![](pollen.png)
+Pollen seasons are intensifying under climate change, yet forecasting pollen concentrations remains challenging partly due to the complexity responses of plant phenology to environmental cues. SeasonFM will integrate multiple data sources including satellite imagery, field images, and phenophase status records to produce seasonality embeddings that capture the phenological development of wind-pollinated plant species. Combined with meteorological data, these embeddings can drive more accurate and timely forecasts of airborne pollen concentrations, benefiting populations who suffer from seasonal allergies.
+
+![SeasonFM will generate fused embedding to represent plant seasonality using satellite imagery (Sentinel-2, retrieved using Google Earth Engine), field images (to be collected through Nature's Botebook citizen science app), and phenophase status (available through Nature's Botebook and iNatualist). Together with real-time meterolofical data (from Open-Meteo), we will predict pollen concentration at hourly resolution, validated by data from our pollen sampling network. Andrew Burgess collected the pollen concentration data using Pollen Sense APS400 and contributed to the preparation of this figure.](pollen.png)
 
 ## Use case: reconstruct earth’s seasonality
 
@@ -61,6 +63,6 @@ SeasonFM will be used to reconstruct Earth's seasonal rhythms across centuries b
 :::
 
 ::: {.figure-caption}
-Two herbarium specimens of _Lindera benzoin_(spicebush) collected from Fox Chapel, outside of Pittsburgh, 117 years apart. While the species was in full flower with no leaves yet on Apr 28, 1900 (left), the same species was long over flowering with nearly full sized leaves on Apr 27, 2017 (right), demonstrating the drastic changes in seasonality. Images provided by Dr. Mason Heberling.
+Two herbarium specimens of _Lindera benzoin_ (spicebush) collected from Fox Chapel, outside of Pittsburgh, 117 years apart. While the species was in full flower with no leaves yet on Apr 28, 1900 (left), the same species was long over flowering with nearly full sized leaves on Apr 27, 2017 (right), demonstrating the drastic changes in seasonality. Images provided by Dr. Mason Heberling.
 :::
 
