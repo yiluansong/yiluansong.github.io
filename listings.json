@@ -39,7 +39,8 @@
       "/people/PI/Song/index.html",
       "/people/postdoc/Ha/index.html",
       "/people/technician/Burgess/index.html",
-      "/people/technician/Shepherd/index.html"
+      "/people/technician/Shepherd/index.html",
+      "/people/undergrad/Ward/index.html"
     ]
   },
   {
@@ -53,6 +54,12 @@
       "/blog/github/index.html",
       "/blog/phenology-sample-data/index.html",
       "/blog/blogdown/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/retreat_2026/index.html"
     ]
   }
 ]
