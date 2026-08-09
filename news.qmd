@@ -1,0 +1,10 @@
+---
+title: "News"
+format: html
+listing:
+  type: default
+  contents: news
+  sort: "date desc"
+  categories: true
+include-after-body: _includes/statcounter.html
+---
