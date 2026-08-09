@@ -13,6 +13,26 @@ Our research operates at the intersection of **environmental data science** and 
 
 ## Positions
 
+We are recruiting a PhD student to develop research projects at the intersection of phenology, biodiversity, and global change, using large ecological datasets and innovative modeling approaches. Potential projects include:
+
+A. Modeling seasonal changes in biodiversity (e.g., richness, evenness) along environmental gradients to improve our understanding of the biodiversity curve under environmental change and its link to phenology. This project will leverage data from large-scale observatory networks.
+
+B. Forecasting fine-scale pollen concentrations in urban landscapes using models that integrate wind-pollinated plant composition and phenology. This project will leverage remote sensing imagery, ground observations, and air sampling data. The successful candidate will be involved in field sampling.
+
+C. Extracting phenological signals from multimodal data sources (e.g., herbarium specimens, social media, citizen science) to reconstruct and model phenological change across space and time.
+
+The PhD student will co-develop research questions and methods with the PI, lead data analysis, collaborate with internal and external partners, prepare manuscripts, and present scientific findings. We welcome students trained in an ecology background who would like to develop expertise in ecological modeling and data science, as well as students who are passionate about applying statistical and computational methods to tackle challenges in global change biology.
+
+Preferred qualifications:
+
+- A background in ecology, environmental science, data science, or related fields
+- Strong quantitative skills, or demonstrated ability and motivation to develop them further
+- Curiosity about how environmental change (e.g., climate change, human modifications) is shaping ecosystems
+
+This is a full‑time, in‑person position based on the Pittsburgh campus. The successful candidate will start in Fall 2027.
+
+Prospective PhD students should reach out by filling out [this form](https://forms.gle/NN2JkyFxHtu5z5Um7). Competitive applicants will be guided through the formal application process to the graduate program in Biological Sciences.
+
 For prospective Postdoctoral Researchers, PhD Students, Research Technicians, and undergraduate students who would like to join my group, please fill out [this form](https://forms.gle/NN2JkyFxHtu5z5Um7). Thank you!
 
 ## Why Join Us?
