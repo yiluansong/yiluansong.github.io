@@ -23,6 +23,13 @@ listing:
     categories: false
     sort: "order"
     fields: [image, title] 
+  - id: undergrad
+    contents: people/undergrad
+    type: grid
+    image-height: 250px
+    categories: false
+    sort: "order"
+    fields: [image, title] 
 include-after-body: _includes/statcounter.html
 ---
 
@@ -36,8 +43,12 @@ include-after-body: _includes/statcounter.html
 ::: {#postdoc}
 :::
 
-
 ## Research Technician
 
 ::: {#technician}
+:::
+
+## Undergraduate Researcher
+
+::: {#undergrad}
 :::

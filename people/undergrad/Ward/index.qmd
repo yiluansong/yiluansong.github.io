@@ -1,0 +1,17 @@
+---
+title: "Grant Ward"
+image: Ward_Photo.png
+about:
+  template: trestles
+  links:
+    - text: Email
+      icon: envelope
+      url: "mailto:GSW14@pitt.edu"
+comments: false
+---
+
+::: column-page
+
+I am an undergraduate researcher in Dr. Yiluan Song's lab, where I study phytoplankton communities and the environmental factors that influence cyanobacteria blooms in freshwater ecosystems. My previous research has focused on long-term seed viability, comparing herbarium specimen seeds with results from the ongoing Beal seed longevity experiment. More broadly, I am interested in understanding how environmental change shapes plant behavior and species responses over time. Outside of research, I enjoy playing musical instruments and taking care of my houseplants!
+
+:::
