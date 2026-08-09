@@ -2,15 +2,11 @@
 title: "Song Lab retreat 2026"
 date: "2026-05-20"
 about:
-  template: trestles
+  template: solana
 ---
 
-::: column-page
-
-![](IMG_4960.png)
-
-![](IMG_4967.PNG)
 
 Song Lab held its first lab retreat at the Pymatuning Laboratory of Ecology on May 19–20, 2026.
 
-:::
+![](IMG_4960.png)
+![](IMG_4967.PNG)

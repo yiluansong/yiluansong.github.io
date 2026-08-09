@@ -2,17 +2,11 @@
 title: "PLE Symposium 2026"
 date: "2026-07-16"
 about:
-  template: trestles
+  template: solana
 ---
 
-::: column-page
-
+Xianrui Ha, Andrew Burgess, and Grant Ward presented at the PLE Ecology & Evolution Student Research Symposium on Jul 16, 2026.
 ![](IMG_0573.JPG)
-
-
 ![](IMG_0581.JPG)
 ![](IMG_0592.JPG)
 
-Xianrui Ha, Andrew Burgess, and Grant Ward presented at the PLE Ecology & Evolution Student Research Symposium on Jul 16, 2026.
-
-:::
