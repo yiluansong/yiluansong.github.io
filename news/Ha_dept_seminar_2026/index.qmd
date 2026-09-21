@@ -1,0 +1,10 @@
+---
+title: "Department seminar by Xianrui Ha"
+date: "2026-09-09"
+about:
+  template: solana
+---
+
+Xianrui Ha gave a department seminar on "Biogeochemical Cycling and the Seasonal Rhythm of Freshwater Phytoplankton Communities: From Investigation to Prediction" on Sep 9, 2026.
+
+![](Ha_dept_seminar_2026.jpg)
